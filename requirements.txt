@@ -1,0 +1,6 @@
+pandas
+numpy
+openpyxl
+pytest
+# retrieval baselines (Kaggle): sentence-transformers
+# d1 gate (Kaggle): transformers>=5.14 accelerate  (trust_remote_code)
