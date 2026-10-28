@@ -1,0 +1,2001 @@
+dev_id,split,version,differs,gold,model,rank
+D001,val,standard,all,4,bge-m3,1
+D001,val,dialect,yes,4,bge-m3,1
+D002,fit,standard,all,1,bge-m3,1
+D002,fit,dialect,yes,1,bge-m3,1
+D003,fit,standard,all,10,bge-m3,1
+D003,fit,dialect,yes,10,bge-m3,1
+D004,fit,standard,all,6,bge-m3,1
+D004,fit,dialect,yes,6,bge-m3,1
+D005,fit,standard,all,13,bge-m3,1
+D005,fit,dialect,yes,13,bge-m3,1
+D006,fit,standard,all,2,bge-m3,1
+D006,fit,dialect,yes,2,bge-m3,1
+D007,fit,standard,all,5,bge-m3,1
+D007,fit,dialect,yes,5,bge-m3,1
+D008,fit,standard,all,51,bge-m3,1
+D008,fit,dialect,yes,51,bge-m3,1
+D009,val,standard,all,48,bge-m3,1
+D009,val,dialect,yes,48,bge-m3,1
+D010,val,standard,all,62,bge-m3,1
+D010,val,dialect,yes,62,bge-m3,1
+D011,val,standard,all,58,bge-m3,1
+D011,val,dialect,yes,58,bge-m3,1
+D012,val,standard,all,45,bge-m3,1
+D012,val,dialect,yes,45,bge-m3,1
+D013,fit,standard,all,49,bge-m3,1
+D013,fit,dialect,yes,49,bge-m3,1
+D014,fit,standard,all,80,bge-m3,1
+D014,fit,dialect,yes,80,bge-m3,1
+D015,fit,standard,all,82,bge-m3,1
+D015,fit,dialect,yes,82,bge-m3,1
+D016,val,standard,all,88,bge-m3,1
+D016,val,dialect,yes,88,bge-m3,1
+D017,fit,standard,all,76,bge-m3,1
+D017,fit,dialect,yes,76,bge-m3,1
+D018,fit,standard,all,90,bge-m3,1
+D018,fit,dialect,yes,90,bge-m3,1
+D019,fit,standard,all,125,bge-m3,1
+D019,fit,dialect,yes,125,bge-m3,1
+D020,val,standard,all,107,bge-m3,1
+D020,val,dialect,yes,107,bge-m3,1
+D021,fit,standard,all,111,bge-m3,1
+D021,fit,dialect,yes,111,bge-m3,1
+D022,fit,standard,all,128,bge-m3,1
+D022,fit,dialect,yes,128,bge-m3,1
+D023,val,standard,all,100,bge-m3,1
+D023,val,dialect,yes,100,bge-m3,1
+D024,val,standard,all,127,bge-m3,1
+D024,val,dialect,yes,127,bge-m3,1
+D055,fit,standard,all,25,bge-m3,1
+D055,fit,dialect,yes,25,bge-m3,1
+D056,fit,standard,all,23,bge-m3,1
+D056,fit,dialect,yes,23,bge-m3,1
+D057,val,standard,all,24,bge-m3,1
+D057,val,dialect,yes,24,bge-m3,1
+D058,fit,standard,all,37,bge-m3,1
+D058,fit,dialect,yes,37,bge-m3,1
+D059,fit,standard,all,26,bge-m3,1
+D059,fit,dialect,yes,26,bge-m3,1
+D060,fit,standard,all,36,bge-m3,1
+D060,fit,dialect,yes,36,bge-m3,1
+D063,fit,standard,all,25,bge-m3,1
+D063,fit,dialect,yes,25,bge-m3,1
+D064,val,standard,all,11,bge-m3,1
+D064,val,dialect,yes,11,bge-m3,1
+D065,fit,standard,all,80,bge-m3,2
+D065,fit,dialect,yes,80,bge-m3,2
+D066,fit,standard,all,91,bge-m3,1
+D066,fit,dialect,no,91,bge-m3,1
+D067,fit,standard,all,108,bge-m3,1
+D067,fit,dialect,yes,108,bge-m3,1
+D068,val,standard,all,56,bge-m3,1
+D068,val,dialect,no,56,bge-m3,1
+D069,fit,standard,all,27,bge-m3,1
+D069,fit,dialect,yes,27,bge-m3,1
+D072,fit,standard,all,47,bge-m3,1
+D072,fit,dialect,no,47,bge-m3,1
+D074,fit,standard,all,81,bge-m3,1
+D074,fit,dialect,yes,81,bge-m3,1
+D078,fit,standard,all,37,bge-m3,1
+D078,fit,dialect,no,37,bge-m3,1
+D079,fit,standard,all,85,bge-m3,1
+D079,fit,dialect,yes,85,bge-m3,1
+D080,fit,standard,all,123,bge-m3,1
+D080,fit,dialect,no,123,bge-m3,1
+D082,fit,standard,all,48,bge-m3,1
+D082,fit,dialect,no,48,bge-m3,1
+D085,fit,standard,all,36,bge-m3,1
+D085,fit,dialect,yes,36,bge-m3,1
+D088,val,standard,all,35,bge-m3,1
+D088,val,dialect,yes,35,bge-m3,1
+D090,fit,standard,all,119,bge-m3,1
+D090,fit,dialect,no,119,bge-m3,1
+D093,fit,standard,all,52,bge-m3,1
+D093,fit,dialect,no,52,bge-m3,1
+D094,val,standard,all,84,bge-m3,1
+D094,val,dialect,yes,84,bge-m3,1
+D098,fit,standard,all,76,bge-m3,1
+D098,fit,dialect,yes,76,bge-m3,1
+D100,val,standard,all,32,bge-m3,1
+D100,val,dialect,yes,32,bge-m3,1
+D103,val,standard,all,2,bge-m3,1
+D103,val,dialect,yes,2,bge-m3,1
+D104,fit,standard,all,46,bge-m3,1
+D104,fit,dialect,no,46,bge-m3,1
+D105,fit,standard,all,54,bge-m3,1
+D105,fit,dialect,yes,54,bge-m3,1
+D107,val,standard,all,26,bge-m3,1
+D107,val,dialect,yes,26,bge-m3,1
+D109,fit,standard,all,114,bge-m3,1
+D109,fit,dialect,yes,114,bge-m3,1
+D110,fit,standard,all,41,bge-m3,1
+D110,fit,dialect,no,41,bge-m3,1
+D111,fit,standard,all,45,bge-m3,1
+D111,fit,dialect,no,45,bge-m3,1
+D112,fit,standard,all,74,bge-m3,1
+D112,fit,dialect,no,74,bge-m3,1
+D113,fit,standard,all,12,bge-m3,2
+D113,fit,dialect,no,12,bge-m3,2
+D115,val,standard,all,117,bge-m3,1
+D115,val,dialect,yes,117,bge-m3,1
+D116,fit,standard,all,61,bge-m3,1
+D116,fit,dialect,no,61,bge-m3,1
+D117,fit,standard,all,92,bge-m3,1
+D117,fit,dialect,yes,92,bge-m3,1
+D120,fit,standard,all,42,bge-m3,1
+D120,fit,dialect,yes,42,bge-m3,1
+D122,val,standard,all,81,bge-m3,1
+D122,val,dialect,no,81,bge-m3,1
+D125,fit,standard,all,39,bge-m3,1
+D125,fit,dialect,no,39,bge-m3,1
+D126,fit,standard,all,29,bge-m3,1
+D126,fit,dialect,yes,29,bge-m3,1
+D128,val,standard,all,30,bge-m3,19
+D128,val,dialect,yes,30,bge-m3,10
+D131,val,standard,all,25,bge-m3,1
+D131,val,dialect,yes,25,bge-m3,1
+D132,fit,standard,all,80,bge-m3,1
+D132,fit,dialect,yes,80,bge-m3,1
+D134,val,standard,all,84,bge-m3,1
+D134,val,dialect,no,84,bge-m3,1
+D135,fit,standard,all,3,bge-m3,1
+D135,fit,dialect,yes,3,bge-m3,1
+D136,fit,standard,all,27,bge-m3,1
+D136,fit,dialect,no,27,bge-m3,1
+D137,fit,standard,all,82,bge-m3,1
+D137,fit,dialect,yes,82,bge-m3,1
+D138,fit,standard,all,28,bge-m3,1
+D138,fit,dialect,yes,28,bge-m3,1
+D139,fit,standard,all,36,bge-m3,1
+D139,fit,dialect,yes,36,bge-m3,1
+D140,fit,standard,all,121,bge-m3,1
+D140,fit,dialect,no,121,bge-m3,1
+D141,fit,standard,all,46,bge-m3,1
+D141,fit,dialect,no,46,bge-m3,1
+D145,fit,standard,all,8,bge-m3,1
+D145,fit,dialect,yes,8,bge-m3,1
+D150,fit,standard,all,93,bge-m3,1
+D150,fit,dialect,no,93,bge-m3,1
+D151,fit,standard,all,23,bge-m3,1
+D151,fit,dialect,yes,23,bge-m3,1
+D152,val,standard,all,34,bge-m3,1
+D152,val,dialect,yes,34,bge-m3,1
+D156,fit,standard,all,85,bge-m3,2
+D156,fit,dialect,yes,85,bge-m3,2
+D157,val,standard,all,107,bge-m3,1
+D157,val,dialect,no,107,bge-m3,1
+D158,val,standard,all,78,bge-m3,1
+D158,val,dialect,no,78,bge-m3,1
+D164,val,standard,all,53,bge-m3,1
+D164,val,dialect,no,53,bge-m3,1
+D165,fit,standard,all,39,bge-m3,1
+D165,fit,dialect,yes,39,bge-m3,1
+D167,val,standard,all,129,bge-m3,1
+D167,val,dialect,yes,129,bge-m3,1
+D168,fit,standard,all,125,bge-m3,1
+D168,fit,dialect,no,125,bge-m3,1
+D169,fit,standard,all,57,bge-m3,1
+D169,fit,dialect,yes,57,bge-m3,1
+D172,fit,standard,all,24,bge-m3,1
+D172,fit,dialect,yes,24,bge-m3,1
+D173,fit,standard,all,103,bge-m3,1
+D173,fit,dialect,yes,103,bge-m3,1
+D175,fit,standard,all,58,bge-m3,1
+D175,fit,dialect,no,58,bge-m3,1
+D177,fit,standard,all,89,bge-m3,1
+D177,fit,dialect,yes,89,bge-m3,1
+D180,fit,standard,all,14,bge-m3,1
+D180,fit,dialect,yes,14,bge-m3,1
+D188,val,standard,all,41,bge-m3,1
+D188,val,dialect,no,41,bge-m3,1
+D190,val,standard,all,7,bge-m3,1
+D190,val,dialect,yes,7,bge-m3,1
+D195,fit,standard,all,0,bge-m3,1
+D195,fit,dialect,no,0,bge-m3,1
+D198,fit,standard,all,113,bge-m3,1
+D198,fit,dialect,no,113,bge-m3,1
+D199,val,standard,all,5,bge-m3,1
+D199,val,dialect,no,5,bge-m3,1
+D200,val,standard,all,100,bge-m3,1
+D200,val,dialect,no,100,bge-m3,1
+D201,val,standard,all,33,bge-m3,1
+D201,val,dialect,yes,33,bge-m3,1
+D203,fit,standard,all,31,bge-m3,1
+D203,fit,dialect,yes,31,bge-m3,1
+D204,fit,standard,all,79,bge-m3,1
+D204,fit,dialect,yes,79,bge-m3,1
+D205,fit,standard,all,49,bge-m3,1
+D205,fit,dialect,no,49,bge-m3,1
+D206,fit,standard,all,75,bge-m3,1
+D206,fit,dialect,no,75,bge-m3,1
+D207,fit,standard,all,29,bge-m3,1
+D207,fit,dialect,no,29,bge-m3,1
+D209,fit,standard,all,87,bge-m3,1
+D209,fit,dialect,yes,87,bge-m3,1
+D210,val,standard,all,23,bge-m3,1
+D210,val,dialect,yes,23,bge-m3,1
+D212,fit,standard,all,2,bge-m3,1
+D212,fit,dialect,no,2,bge-m3,1
+D213,val,standard,all,43,bge-m3,1
+D213,val,dialect,no,43,bge-m3,1
+D214,fit,standard,all,102,bge-m3,1
+D214,fit,dialect,no,102,bge-m3,1
+D215,val,standard,all,28,bge-m3,1
+D215,val,dialect,yes,28,bge-m3,1
+D219,fit,standard,all,27,bge-m3,4
+D219,fit,dialect,yes,27,bge-m3,6
+D220,fit,standard,all,7,bge-m3,1
+D220,fit,dialect,no,7,bge-m3,1
+D221,fit,standard,all,52,bge-m3,1
+D221,fit,dialect,no,52,bge-m3,1
+D223,fit,standard,all,12,bge-m3,1
+D223,fit,dialect,no,12,bge-m3,1
+D224,fit,standard,all,32,bge-m3,1
+D224,fit,dialect,yes,32,bge-m3,1
+D226,fit,standard,all,10,bge-m3,1
+D226,fit,dialect,no,10,bge-m3,1
+D227,fit,standard,all,116,bge-m3,2
+D227,fit,dialect,no,116,bge-m3,2
+D230,fit,standard,all,113,bge-m3,1
+D230,fit,dialect,no,113,bge-m3,1
+D236,fit,standard,all,86,bge-m3,1
+D236,fit,dialect,no,86,bge-m3,1
+D239,fit,standard,all,88,bge-m3,1
+D239,fit,dialect,no,88,bge-m3,1
+D241,fit,standard,all,53,bge-m3,1
+D241,fit,dialect,no,53,bge-m3,1
+D242,val,standard,all,89,bge-m3,1
+D242,val,dialect,no,89,bge-m3,1
+D245,fit,standard,all,34,bge-m3,1
+D245,fit,dialect,yes,34,bge-m3,1
+D246,fit,standard,all,77,bge-m3,1
+D246,fit,dialect,yes,77,bge-m3,1
+D250,fit,standard,all,31,bge-m3,1
+D250,fit,dialect,no,31,bge-m3,1
+D251,fit,standard,all,47,bge-m3,1
+D251,fit,dialect,no,47,bge-m3,1
+D252,val,standard,all,40,bge-m3,1
+D252,val,dialect,no,40,bge-m3,1
+D255,fit,standard,all,104,bge-m3,1
+D255,fit,dialect,no,104,bge-m3,1
+D258,fit,standard,all,119,bge-m3,1
+D258,fit,dialect,no,119,bge-m3,1
+D259,fit,standard,all,78,bge-m3,4
+D259,fit,dialect,yes,78,bge-m3,4
+D260,fit,standard,all,13,bge-m3,1
+D260,fit,dialect,no,13,bge-m3,1
+D261,fit,standard,all,123,bge-m3,1
+D261,fit,dialect,no,123,bge-m3,1
+D263,fit,standard,all,83,bge-m3,1
+D263,fit,dialect,yes,83,bge-m3,1
+D264,val,standard,all,128,bge-m3,1
+D264,val,dialect,yes,128,bge-m3,1
+D265,fit,standard,all,76,bge-m3,1
+D265,fit,dialect,yes,76,bge-m3,1
+D266,fit,standard,all,104,bge-m3,1
+D266,fit,dialect,no,104,bge-m3,1
+D268,fit,standard,all,50,bge-m3,1
+D268,fit,dialect,no,50,bge-m3,1
+D270,fit,standard,all,74,bge-m3,1
+D270,fit,dialect,no,74,bge-m3,1
+D271,val,standard,all,11,bge-m3,1
+D271,val,dialect,yes,11,bge-m3,1
+D273,fit,standard,all,106,bge-m3,1
+D273,fit,dialect,no,106,bge-m3,1
+D276,fit,standard,all,60,bge-m3,1
+D276,fit,dialect,no,60,bge-m3,1
+D277,val,standard,all,88,bge-m3,1
+D277,val,dialect,yes,88,bge-m3,1
+D280,fit,standard,all,122,bge-m3,1
+D280,fit,dialect,no,122,bge-m3,1
+D281,fit,standard,all,6,bge-m3,1
+D281,fit,dialect,no,6,bge-m3,1
+D284,fit,standard,all,14,bge-m3,1
+D284,fit,dialect,no,14,bge-m3,1
+D285,val,standard,all,0,bge-m3,1
+D285,val,dialect,yes,0,bge-m3,1
+D289,fit,standard,all,9,bge-m3,1
+D289,fit,dialect,yes,9,bge-m3,1
+D292,fit,standard,all,40,bge-m3,1
+D292,fit,dialect,yes,40,bge-m3,1
+D296,fit,standard,all,110,bge-m3,1
+D296,fit,dialect,no,110,bge-m3,1
+D297,fit,standard,all,23,bge-m3,5
+D297,fit,dialect,yes,23,bge-m3,6
+D299,fit,standard,all,55,bge-m3,1
+D299,fit,dialect,no,55,bge-m3,1
+D301,val,standard,all,118,bge-m3,2
+D301,val,dialect,no,118,bge-m3,2
+D303,val,standard,all,90,bge-m3,1
+D303,val,dialect,yes,90,bge-m3,1
+D305,fit,standard,all,35,bge-m3,1
+D305,fit,dialect,yes,35,bge-m3,1
+D310,fit,standard,all,105,bge-m3,1
+D310,fit,dialect,no,105,bge-m3,1
+D312,fit,standard,all,101,bge-m3,1
+D312,fit,dialect,no,101,bge-m3,1
+D313,fit,standard,all,23,bge-m3,7
+D313,fit,dialect,yes,23,bge-m3,6
+D314,val,standard,all,83,bge-m3,1
+D314,val,dialect,yes,83,bge-m3,1
+D317,fit,standard,all,55,bge-m3,1
+D317,fit,dialect,yes,55,bge-m3,1
+D318,val,standard,all,62,bge-m3,1
+D318,val,dialect,yes,62,bge-m3,1
+D321,fit,standard,all,24,bge-m3,1
+D321,fit,dialect,yes,24,bge-m3,1
+D326,val,standard,all,77,bge-m3,1
+D326,val,dialect,no,77,bge-m3,1
+D327,fit,standard,all,58,bge-m3,1
+D327,fit,dialect,no,58,bge-m3,1
+D329,fit,standard,all,43,bge-m3,1
+D329,fit,dialect,no,43,bge-m3,1
+D330,val,standard,all,124,bge-m3,1
+D330,val,dialect,yes,124,bge-m3,1
+D334,fit,standard,all,86,bge-m3,1
+D334,fit,dialect,no,86,bge-m3,1
+D335,fit,standard,all,51,bge-m3,1
+D335,fit,dialect,yes,51,bge-m3,1
+D336,fit,standard,all,26,bge-m3,2
+D336,fit,dialect,yes,26,bge-m3,2
+D337,fit,standard,all,49,bge-m3,1
+D337,fit,dialect,no,49,bge-m3,1
+D345,fit,standard,all,75,bge-m3,1
+D345,fit,dialect,no,75,bge-m3,1
+D346,val,standard,all,59,bge-m3,1
+D346,val,dialect,no,59,bge-m3,1
+D348,fit,standard,all,115,bge-m3,1
+D348,fit,dialect,no,115,bge-m3,1
+D350,fit,standard,all,126,bge-m3,1
+D350,fit,dialect,yes,126,bge-m3,1
+D353,val,standard,all,109,bge-m3,1
+D353,val,dialect,no,109,bge-m3,1
+D355,fit,standard,all,10,bge-m3,2
+D355,fit,dialect,yes,10,bge-m3,2
+D360,fit,standard,all,3,bge-m3,1
+D360,fit,dialect,no,3,bge-m3,1
+D361,val,standard,all,63,bge-m3,1
+D361,val,dialect,no,63,bge-m3,1
+D363,fit,standard,all,51,bge-m3,1
+D363,fit,dialect,yes,51,bge-m3,1
+D365,val,standard,all,4,bge-m3,1
+D365,val,dialect,no,4,bge-m3,1
+D367,fit,standard,all,112,bge-m3,1
+D367,fit,dialect,no,112,bge-m3,1
+D368,fit,standard,all,54,bge-m3,1
+D368,fit,dialect,no,54,bge-m3,1
+D369,fit,standard,all,33,bge-m3,1
+D369,fit,dialect,yes,33,bge-m3,1
+D371,fit,standard,all,37,bge-m3,1
+D371,fit,dialect,yes,37,bge-m3,1
+D372,fit,standard,all,87,bge-m3,1
+D372,fit,dialect,no,87,bge-m3,1
+D375,val,standard,all,90,bge-m3,1
+D375,val,dialect,yes,90,bge-m3,1
+D376,val,standard,all,91,bge-m3,1
+D376,val,dialect,no,91,bge-m3,1
+D377,val,standard,all,127,bge-m3,1
+D377,val,dialect,no,127,bge-m3,1
+D379,val,standard,all,1,bge-m3,1
+D379,val,dialect,no,1,bge-m3,1
+D382,val,standard,all,108,bge-m3,1
+D382,val,dialect,yes,108,bge-m3,1
+D384,val,standard,all,82,bge-m3,1
+D384,val,dialect,no,82,bge-m3,1
+D385,fit,standard,all,92,bge-m3,2
+D385,fit,dialect,no,92,bge-m3,2
+D387,fit,standard,all,120,bge-m3,1
+D387,fit,dialect,no,120,bge-m3,1
+D388,val,standard,all,56,bge-m3,1
+D388,val,dialect,yes,56,bge-m3,1
+D390,fit,standard,all,100,bge-m3,1
+D390,fit,dialect,no,100,bge-m3,1
+D392,fit,standard,all,44,bge-m3,1
+D392,fit,dialect,no,44,bge-m3,1
+D394,val,standard,all,30,bge-m3,1
+D394,val,dialect,no,30,bge-m3,1
+D396,val,standard,all,25,bge-m3,1
+D396,val,dialect,no,25,bge-m3,1
+D399,fit,standard,all,111,bge-m3,1
+D399,fit,dialect,yes,111,bge-m3,1
+D001,val,standard,all,4,mE5-large,1
+D001,val,dialect,yes,4,mE5-large,1
+D002,fit,standard,all,1,mE5-large,1
+D002,fit,dialect,yes,1,mE5-large,1
+D003,fit,standard,all,10,mE5-large,1
+D003,fit,dialect,yes,10,mE5-large,1
+D004,fit,standard,all,6,mE5-large,1
+D004,fit,dialect,yes,6,mE5-large,1
+D005,fit,standard,all,13,mE5-large,1
+D005,fit,dialect,yes,13,mE5-large,1
+D006,fit,standard,all,2,mE5-large,1
+D006,fit,dialect,yes,2,mE5-large,1
+D007,fit,standard,all,5,mE5-large,1
+D007,fit,dialect,yes,5,mE5-large,1
+D008,fit,standard,all,51,mE5-large,1
+D008,fit,dialect,yes,51,mE5-large,1
+D009,val,standard,all,48,mE5-large,1
+D009,val,dialect,yes,48,mE5-large,1
+D010,val,standard,all,62,mE5-large,1
+D010,val,dialect,yes,62,mE5-large,1
+D011,val,standard,all,58,mE5-large,1
+D011,val,dialect,yes,58,mE5-large,1
+D012,val,standard,all,45,mE5-large,1
+D012,val,dialect,yes,45,mE5-large,1
+D013,fit,standard,all,49,mE5-large,1
+D013,fit,dialect,yes,49,mE5-large,1
+D014,fit,standard,all,80,mE5-large,1
+D014,fit,dialect,yes,80,mE5-large,1
+D015,fit,standard,all,82,mE5-large,1
+D015,fit,dialect,yes,82,mE5-large,1
+D016,val,standard,all,88,mE5-large,1
+D016,val,dialect,yes,88,mE5-large,1
+D017,fit,standard,all,76,mE5-large,1
+D017,fit,dialect,yes,76,mE5-large,1
+D018,fit,standard,all,90,mE5-large,1
+D018,fit,dialect,yes,90,mE5-large,1
+D019,fit,standard,all,125,mE5-large,1
+D019,fit,dialect,yes,125,mE5-large,1
+D020,val,standard,all,107,mE5-large,1
+D020,val,dialect,yes,107,mE5-large,1
+D021,fit,standard,all,111,mE5-large,1
+D021,fit,dialect,yes,111,mE5-large,1
+D022,fit,standard,all,128,mE5-large,1
+D022,fit,dialect,yes,128,mE5-large,1
+D023,val,standard,all,100,mE5-large,1
+D023,val,dialect,yes,100,mE5-large,1
+D024,val,standard,all,127,mE5-large,1
+D024,val,dialect,yes,127,mE5-large,1
+D055,fit,standard,all,25,mE5-large,1
+D055,fit,dialect,yes,25,mE5-large,1
+D056,fit,standard,all,23,mE5-large,1
+D056,fit,dialect,yes,23,mE5-large,1
+D057,val,standard,all,24,mE5-large,1
+D057,val,dialect,yes,24,mE5-large,1
+D058,fit,standard,all,37,mE5-large,1
+D058,fit,dialect,yes,37,mE5-large,1
+D059,fit,standard,all,26,mE5-large,2
+D059,fit,dialect,yes,26,mE5-large,2
+D060,fit,standard,all,36,mE5-large,1
+D060,fit,dialect,yes,36,mE5-large,1
+D063,fit,standard,all,25,mE5-large,1
+D063,fit,dialect,yes,25,mE5-large,1
+D064,val,standard,all,11,mE5-large,1
+D064,val,dialect,yes,11,mE5-large,1
+D065,fit,standard,all,80,mE5-large,2
+D065,fit,dialect,yes,80,mE5-large,2
+D066,fit,standard,all,91,mE5-large,1
+D066,fit,dialect,no,91,mE5-large,1
+D067,fit,standard,all,108,mE5-large,1
+D067,fit,dialect,yes,108,mE5-large,1
+D068,val,standard,all,56,mE5-large,1
+D068,val,dialect,no,56,mE5-large,1
+D069,fit,standard,all,27,mE5-large,1
+D069,fit,dialect,yes,27,mE5-large,1
+D072,fit,standard,all,47,mE5-large,1
+D072,fit,dialect,no,47,mE5-large,1
+D074,fit,standard,all,81,mE5-large,1
+D074,fit,dialect,yes,81,mE5-large,1
+D078,fit,standard,all,37,mE5-large,1
+D078,fit,dialect,no,37,mE5-large,1
+D079,fit,standard,all,85,mE5-large,1
+D079,fit,dialect,yes,85,mE5-large,1
+D080,fit,standard,all,123,mE5-large,1
+D080,fit,dialect,no,123,mE5-large,1
+D082,fit,standard,all,48,mE5-large,1
+D082,fit,dialect,no,48,mE5-large,1
+D085,fit,standard,all,36,mE5-large,1
+D085,fit,dialect,yes,36,mE5-large,1
+D088,val,standard,all,35,mE5-large,3
+D088,val,dialect,yes,35,mE5-large,4
+D090,fit,standard,all,119,mE5-large,1
+D090,fit,dialect,no,119,mE5-large,1
+D093,fit,standard,all,52,mE5-large,1
+D093,fit,dialect,no,52,mE5-large,1
+D094,val,standard,all,84,mE5-large,1
+D094,val,dialect,yes,84,mE5-large,1
+D098,fit,standard,all,76,mE5-large,1
+D098,fit,dialect,yes,76,mE5-large,1
+D100,val,standard,all,32,mE5-large,1
+D100,val,dialect,yes,32,mE5-large,1
+D103,val,standard,all,2,mE5-large,1
+D103,val,dialect,yes,2,mE5-large,1
+D104,fit,standard,all,46,mE5-large,1
+D104,fit,dialect,no,46,mE5-large,1
+D105,fit,standard,all,54,mE5-large,1
+D105,fit,dialect,yes,54,mE5-large,1
+D107,val,standard,all,26,mE5-large,1
+D107,val,dialect,yes,26,mE5-large,1
+D109,fit,standard,all,114,mE5-large,1
+D109,fit,dialect,yes,114,mE5-large,1
+D110,fit,standard,all,41,mE5-large,1
+D110,fit,dialect,no,41,mE5-large,1
+D111,fit,standard,all,45,mE5-large,1
+D111,fit,dialect,no,45,mE5-large,1
+D112,fit,standard,all,74,mE5-large,1
+D112,fit,dialect,no,74,mE5-large,1
+D113,fit,standard,all,12,mE5-large,1
+D113,fit,dialect,no,12,mE5-large,1
+D115,val,standard,all,117,mE5-large,1
+D115,val,dialect,yes,117,mE5-large,1
+D116,fit,standard,all,61,mE5-large,1
+D116,fit,dialect,no,61,mE5-large,1
+D117,fit,standard,all,92,mE5-large,1
+D117,fit,dialect,yes,92,mE5-large,1
+D120,fit,standard,all,42,mE5-large,1
+D120,fit,dialect,yes,42,mE5-large,1
+D122,val,standard,all,81,mE5-large,1
+D122,val,dialect,no,81,mE5-large,1
+D125,fit,standard,all,39,mE5-large,1
+D125,fit,dialect,no,39,mE5-large,1
+D126,fit,standard,all,29,mE5-large,1
+D126,fit,dialect,yes,29,mE5-large,1
+D128,val,standard,all,30,mE5-large,1
+D128,val,dialect,yes,30,mE5-large,1
+D131,val,standard,all,25,mE5-large,1
+D131,val,dialect,yes,25,mE5-large,1
+D132,fit,standard,all,80,mE5-large,1
+D132,fit,dialect,yes,80,mE5-large,1
+D134,val,standard,all,84,mE5-large,1
+D134,val,dialect,no,84,mE5-large,1
+D135,fit,standard,all,3,mE5-large,1
+D135,fit,dialect,yes,3,mE5-large,1
+D136,fit,standard,all,27,mE5-large,1
+D136,fit,dialect,no,27,mE5-large,1
+D137,fit,standard,all,82,mE5-large,1
+D137,fit,dialect,yes,82,mE5-large,1
+D138,fit,standard,all,28,mE5-large,1
+D138,fit,dialect,yes,28,mE5-large,1
+D139,fit,standard,all,36,mE5-large,3
+D139,fit,dialect,yes,36,mE5-large,3
+D140,fit,standard,all,121,mE5-large,1
+D140,fit,dialect,no,121,mE5-large,1
+D141,fit,standard,all,46,mE5-large,1
+D141,fit,dialect,no,46,mE5-large,1
+D145,fit,standard,all,8,mE5-large,1
+D145,fit,dialect,yes,8,mE5-large,1
+D150,fit,standard,all,93,mE5-large,1
+D150,fit,dialect,no,93,mE5-large,1
+D151,fit,standard,all,23,mE5-large,1
+D151,fit,dialect,yes,23,mE5-large,1
+D152,val,standard,all,34,mE5-large,1
+D152,val,dialect,yes,34,mE5-large,1
+D156,fit,standard,all,85,mE5-large,3
+D156,fit,dialect,yes,85,mE5-large,3
+D157,val,standard,all,107,mE5-large,1
+D157,val,dialect,no,107,mE5-large,1
+D158,val,standard,all,78,mE5-large,1
+D158,val,dialect,no,78,mE5-large,1
+D164,val,standard,all,53,mE5-large,1
+D164,val,dialect,no,53,mE5-large,1
+D165,fit,standard,all,39,mE5-large,1
+D165,fit,dialect,yes,39,mE5-large,1
+D167,val,standard,all,129,mE5-large,1
+D167,val,dialect,yes,129,mE5-large,1
+D168,fit,standard,all,125,mE5-large,1
+D168,fit,dialect,no,125,mE5-large,1
+D169,fit,standard,all,57,mE5-large,1
+D169,fit,dialect,yes,57,mE5-large,1
+D172,fit,standard,all,24,mE5-large,1
+D172,fit,dialect,yes,24,mE5-large,1
+D173,fit,standard,all,103,mE5-large,1
+D173,fit,dialect,yes,103,mE5-large,1
+D175,fit,standard,all,58,mE5-large,1
+D175,fit,dialect,no,58,mE5-large,1
+D177,fit,standard,all,89,mE5-large,1
+D177,fit,dialect,yes,89,mE5-large,1
+D180,fit,standard,all,14,mE5-large,1
+D180,fit,dialect,yes,14,mE5-large,1
+D188,val,standard,all,41,mE5-large,1
+D188,val,dialect,no,41,mE5-large,1
+D190,val,standard,all,7,mE5-large,1
+D190,val,dialect,yes,7,mE5-large,1
+D195,fit,standard,all,0,mE5-large,1
+D195,fit,dialect,no,0,mE5-large,1
+D198,fit,standard,all,113,mE5-large,1
+D198,fit,dialect,no,113,mE5-large,1
+D199,val,standard,all,5,mE5-large,1
+D199,val,dialect,no,5,mE5-large,1
+D200,val,standard,all,100,mE5-large,1
+D200,val,dialect,no,100,mE5-large,1
+D201,val,standard,all,33,mE5-large,1
+D201,val,dialect,yes,33,mE5-large,1
+D203,fit,standard,all,31,mE5-large,1
+D203,fit,dialect,yes,31,mE5-large,1
+D204,fit,standard,all,79,mE5-large,1
+D204,fit,dialect,yes,79,mE5-large,1
+D205,fit,standard,all,49,mE5-large,1
+D205,fit,dialect,no,49,mE5-large,1
+D206,fit,standard,all,75,mE5-large,1
+D206,fit,dialect,no,75,mE5-large,1
+D207,fit,standard,all,29,mE5-large,3
+D207,fit,dialect,no,29,mE5-large,3
+D209,fit,standard,all,87,mE5-large,1
+D209,fit,dialect,yes,87,mE5-large,1
+D210,val,standard,all,23,mE5-large,1
+D210,val,dialect,yes,23,mE5-large,1
+D212,fit,standard,all,2,mE5-large,1
+D212,fit,dialect,no,2,mE5-large,1
+D213,val,standard,all,43,mE5-large,1
+D213,val,dialect,no,43,mE5-large,1
+D214,fit,standard,all,102,mE5-large,1
+D214,fit,dialect,no,102,mE5-large,1
+D215,val,standard,all,28,mE5-large,1
+D215,val,dialect,yes,28,mE5-large,1
+D219,fit,standard,all,27,mE5-large,1
+D219,fit,dialect,yes,27,mE5-large,1
+D220,fit,standard,all,7,mE5-large,2
+D220,fit,dialect,no,7,mE5-large,2
+D221,fit,standard,all,52,mE5-large,1
+D221,fit,dialect,no,52,mE5-large,1
+D223,fit,standard,all,12,mE5-large,1
+D223,fit,dialect,no,12,mE5-large,1
+D224,fit,standard,all,32,mE5-large,1
+D224,fit,dialect,yes,32,mE5-large,1
+D226,fit,standard,all,10,mE5-large,1
+D226,fit,dialect,no,10,mE5-large,1
+D227,fit,standard,all,116,mE5-large,1
+D227,fit,dialect,no,116,mE5-large,1
+D230,fit,standard,all,113,mE5-large,1
+D230,fit,dialect,no,113,mE5-large,1
+D236,fit,standard,all,86,mE5-large,1
+D236,fit,dialect,no,86,mE5-large,1
+D239,fit,standard,all,88,mE5-large,1
+D239,fit,dialect,no,88,mE5-large,1
+D241,fit,standard,all,53,mE5-large,1
+D241,fit,dialect,no,53,mE5-large,1
+D242,val,standard,all,89,mE5-large,1
+D242,val,dialect,no,89,mE5-large,1
+D245,fit,standard,all,34,mE5-large,1
+D245,fit,dialect,yes,34,mE5-large,1
+D246,fit,standard,all,77,mE5-large,1
+D246,fit,dialect,yes,77,mE5-large,1
+D250,fit,standard,all,31,mE5-large,1
+D250,fit,dialect,no,31,mE5-large,1
+D251,fit,standard,all,47,mE5-large,1
+D251,fit,dialect,no,47,mE5-large,1
+D252,val,standard,all,40,mE5-large,1
+D252,val,dialect,no,40,mE5-large,1
+D255,fit,standard,all,104,mE5-large,1
+D255,fit,dialect,no,104,mE5-large,1
+D258,fit,standard,all,119,mE5-large,1
+D258,fit,dialect,no,119,mE5-large,1
+D259,fit,standard,all,78,mE5-large,1
+D259,fit,dialect,yes,78,mE5-large,1
+D260,fit,standard,all,13,mE5-large,1
+D260,fit,dialect,no,13,mE5-large,1
+D261,fit,standard,all,123,mE5-large,1
+D261,fit,dialect,no,123,mE5-large,1
+D263,fit,standard,all,83,mE5-large,1
+D263,fit,dialect,yes,83,mE5-large,1
+D264,val,standard,all,128,mE5-large,1
+D264,val,dialect,yes,128,mE5-large,1
+D265,fit,standard,all,76,mE5-large,1
+D265,fit,dialect,yes,76,mE5-large,1
+D266,fit,standard,all,104,mE5-large,1
+D266,fit,dialect,no,104,mE5-large,1
+D268,fit,standard,all,50,mE5-large,1
+D268,fit,dialect,no,50,mE5-large,1
+D270,fit,standard,all,74,mE5-large,1
+D270,fit,dialect,no,74,mE5-large,1
+D271,val,standard,all,11,mE5-large,1
+D271,val,dialect,yes,11,mE5-large,1
+D273,fit,standard,all,106,mE5-large,1
+D273,fit,dialect,no,106,mE5-large,1
+D276,fit,standard,all,60,mE5-large,1
+D276,fit,dialect,no,60,mE5-large,1
+D277,val,standard,all,88,mE5-large,1
+D277,val,dialect,yes,88,mE5-large,1
+D280,fit,standard,all,122,mE5-large,1
+D280,fit,dialect,no,122,mE5-large,1
+D281,fit,standard,all,6,mE5-large,1
+D281,fit,dialect,no,6,mE5-large,1
+D284,fit,standard,all,14,mE5-large,1
+D284,fit,dialect,no,14,mE5-large,1
+D285,val,standard,all,0,mE5-large,1
+D285,val,dialect,yes,0,mE5-large,1
+D289,fit,standard,all,9,mE5-large,1
+D289,fit,dialect,yes,9,mE5-large,1
+D292,fit,standard,all,40,mE5-large,1
+D292,fit,dialect,yes,40,mE5-large,1
+D296,fit,standard,all,110,mE5-large,1
+D296,fit,dialect,no,110,mE5-large,1
+D297,fit,standard,all,23,mE5-large,1
+D297,fit,dialect,yes,23,mE5-large,1
+D299,fit,standard,all,55,mE5-large,1
+D299,fit,dialect,no,55,mE5-large,1
+D301,val,standard,all,118,mE5-large,2
+D301,val,dialect,no,118,mE5-large,2
+D303,val,standard,all,90,mE5-large,1
+D303,val,dialect,yes,90,mE5-large,1
+D305,fit,standard,all,35,mE5-large,1
+D305,fit,dialect,yes,35,mE5-large,1
+D310,fit,standard,all,105,mE5-large,1
+D310,fit,dialect,no,105,mE5-large,1
+D312,fit,standard,all,101,mE5-large,1
+D312,fit,dialect,no,101,mE5-large,1
+D313,fit,standard,all,23,mE5-large,1
+D313,fit,dialect,yes,23,mE5-large,1
+D314,val,standard,all,83,mE5-large,1
+D314,val,dialect,yes,83,mE5-large,1
+D317,fit,standard,all,55,mE5-large,1
+D317,fit,dialect,yes,55,mE5-large,1
+D318,val,standard,all,62,mE5-large,1
+D318,val,dialect,yes,62,mE5-large,1
+D321,fit,standard,all,24,mE5-large,1
+D321,fit,dialect,yes,24,mE5-large,1
+D326,val,standard,all,77,mE5-large,1
+D326,val,dialect,no,77,mE5-large,1
+D327,fit,standard,all,58,mE5-large,1
+D327,fit,dialect,no,58,mE5-large,1
+D329,fit,standard,all,43,mE5-large,1
+D329,fit,dialect,no,43,mE5-large,1
+D330,val,standard,all,124,mE5-large,1
+D330,val,dialect,yes,124,mE5-large,1
+D334,fit,standard,all,86,mE5-large,1
+D334,fit,dialect,no,86,mE5-large,1
+D335,fit,standard,all,51,mE5-large,1
+D335,fit,dialect,yes,51,mE5-large,1
+D336,fit,standard,all,26,mE5-large,15
+D336,fit,dialect,yes,26,mE5-large,23
+D337,fit,standard,all,49,mE5-large,1
+D337,fit,dialect,no,49,mE5-large,1
+D345,fit,standard,all,75,mE5-large,1
+D345,fit,dialect,no,75,mE5-large,1
+D346,val,standard,all,59,mE5-large,1
+D346,val,dialect,no,59,mE5-large,1
+D348,fit,standard,all,115,mE5-large,1
+D348,fit,dialect,no,115,mE5-large,1
+D350,fit,standard,all,126,mE5-large,1
+D350,fit,dialect,yes,126,mE5-large,1
+D353,val,standard,all,109,mE5-large,1
+D353,val,dialect,no,109,mE5-large,1
+D355,fit,standard,all,10,mE5-large,1
+D355,fit,dialect,yes,10,mE5-large,1
+D360,fit,standard,all,3,mE5-large,1
+D360,fit,dialect,no,3,mE5-large,1
+D361,val,standard,all,63,mE5-large,1
+D361,val,dialect,no,63,mE5-large,1
+D363,fit,standard,all,51,mE5-large,1
+D363,fit,dialect,yes,51,mE5-large,1
+D365,val,standard,all,4,mE5-large,1
+D365,val,dialect,no,4,mE5-large,1
+D367,fit,standard,all,112,mE5-large,1
+D367,fit,dialect,no,112,mE5-large,1
+D368,fit,standard,all,54,mE5-large,1
+D368,fit,dialect,no,54,mE5-large,1
+D369,fit,standard,all,33,mE5-large,1
+D369,fit,dialect,yes,33,mE5-large,1
+D371,fit,standard,all,37,mE5-large,1
+D371,fit,dialect,yes,37,mE5-large,1
+D372,fit,standard,all,87,mE5-large,1
+D372,fit,dialect,no,87,mE5-large,1
+D375,val,standard,all,90,mE5-large,1
+D375,val,dialect,yes,90,mE5-large,1
+D376,val,standard,all,91,mE5-large,1
+D376,val,dialect,no,91,mE5-large,1
+D377,val,standard,all,127,mE5-large,1
+D377,val,dialect,no,127,mE5-large,1
+D379,val,standard,all,1,mE5-large,1
+D379,val,dialect,no,1,mE5-large,1
+D382,val,standard,all,108,mE5-large,1
+D382,val,dialect,yes,108,mE5-large,1
+D384,val,standard,all,82,mE5-large,1
+D384,val,dialect,no,82,mE5-large,1
+D385,fit,standard,all,92,mE5-large,2
+D385,fit,dialect,no,92,mE5-large,2
+D387,fit,standard,all,120,mE5-large,1
+D387,fit,dialect,no,120,mE5-large,1
+D388,val,standard,all,56,mE5-large,1
+D388,val,dialect,yes,56,mE5-large,1
+D390,fit,standard,all,100,mE5-large,1
+D390,fit,dialect,no,100,mE5-large,1
+D392,fit,standard,all,44,mE5-large,1
+D392,fit,dialect,no,44,mE5-large,1
+D394,val,standard,all,30,mE5-large,1
+D394,val,dialect,no,30,mE5-large,1
+D396,val,standard,all,25,mE5-large,2
+D396,val,dialect,no,25,mE5-large,2
+D399,fit,standard,all,111,mE5-large,1
+D399,fit,dialect,yes,111,mE5-large,1
+D001,val,standard,all,4,mE5-small,1
+D001,val,dialect,yes,4,mE5-small,1
+D002,fit,standard,all,1,mE5-small,1
+D002,fit,dialect,yes,1,mE5-small,1
+D003,fit,standard,all,10,mE5-small,1
+D003,fit,dialect,yes,10,mE5-small,1
+D004,fit,standard,all,6,mE5-small,1
+D004,fit,dialect,yes,6,mE5-small,1
+D005,fit,standard,all,13,mE5-small,1
+D005,fit,dialect,yes,13,mE5-small,1
+D006,fit,standard,all,2,mE5-small,1
+D006,fit,dialect,yes,2,mE5-small,1
+D007,fit,standard,all,5,mE5-small,1
+D007,fit,dialect,yes,5,mE5-small,1
+D008,fit,standard,all,51,mE5-small,1
+D008,fit,dialect,yes,51,mE5-small,1
+D009,val,standard,all,48,mE5-small,1
+D009,val,dialect,yes,48,mE5-small,1
+D010,val,standard,all,62,mE5-small,1
+D010,val,dialect,yes,62,mE5-small,1
+D011,val,standard,all,58,mE5-small,1
+D011,val,dialect,yes,58,mE5-small,1
+D012,val,standard,all,45,mE5-small,1
+D012,val,dialect,yes,45,mE5-small,1
+D013,fit,standard,all,49,mE5-small,1
+D013,fit,dialect,yes,49,mE5-small,1
+D014,fit,standard,all,80,mE5-small,1
+D014,fit,dialect,yes,80,mE5-small,1
+D015,fit,standard,all,82,mE5-small,1
+D015,fit,dialect,yes,82,mE5-small,1
+D016,val,standard,all,88,mE5-small,1
+D016,val,dialect,yes,88,mE5-small,1
+D017,fit,standard,all,76,mE5-small,1
+D017,fit,dialect,yes,76,mE5-small,1
+D018,fit,standard,all,90,mE5-small,5
+D018,fit,dialect,yes,90,mE5-small,5
+D019,fit,standard,all,125,mE5-small,2
+D019,fit,dialect,yes,125,mE5-small,2
+D020,val,standard,all,107,mE5-small,1
+D020,val,dialect,yes,107,mE5-small,1
+D021,fit,standard,all,111,mE5-small,1
+D021,fit,dialect,yes,111,mE5-small,1
+D022,fit,standard,all,128,mE5-small,1
+D022,fit,dialect,yes,128,mE5-small,1
+D023,val,standard,all,100,mE5-small,1
+D023,val,dialect,yes,100,mE5-small,1
+D024,val,standard,all,127,mE5-small,1
+D024,val,dialect,yes,127,mE5-small,1
+D055,fit,standard,all,25,mE5-small,9
+D055,fit,dialect,yes,25,mE5-small,11
+D056,fit,standard,all,23,mE5-small,5
+D056,fit,dialect,yes,23,mE5-small,4
+D057,val,standard,all,24,mE5-small,1
+D057,val,dialect,yes,24,mE5-small,1
+D058,fit,standard,all,37,mE5-small,1
+D058,fit,dialect,yes,37,mE5-small,1
+D059,fit,standard,all,26,mE5-small,3
+D059,fit,dialect,yes,26,mE5-small,2
+D060,fit,standard,all,36,mE5-small,1
+D060,fit,dialect,yes,36,mE5-small,1
+D063,fit,standard,all,25,mE5-small,5
+D063,fit,dialect,yes,25,mE5-small,4
+D064,val,standard,all,11,mE5-small,1
+D064,val,dialect,yes,11,mE5-small,1
+D065,fit,standard,all,80,mE5-small,2
+D065,fit,dialect,yes,80,mE5-small,2
+D066,fit,standard,all,91,mE5-small,1
+D066,fit,dialect,no,91,mE5-small,1
+D067,fit,standard,all,108,mE5-small,1
+D067,fit,dialect,yes,108,mE5-small,1
+D068,val,standard,all,56,mE5-small,1
+D068,val,dialect,no,56,mE5-small,1
+D069,fit,standard,all,27,mE5-small,3
+D069,fit,dialect,yes,27,mE5-small,8
+D072,fit,standard,all,47,mE5-small,1
+D072,fit,dialect,no,47,mE5-small,1
+D074,fit,standard,all,81,mE5-small,1
+D074,fit,dialect,yes,81,mE5-small,1
+D078,fit,standard,all,37,mE5-small,1
+D078,fit,dialect,no,37,mE5-small,1
+D079,fit,standard,all,85,mE5-small,1
+D079,fit,dialect,yes,85,mE5-small,1
+D080,fit,standard,all,123,mE5-small,1
+D080,fit,dialect,no,123,mE5-small,1
+D082,fit,standard,all,48,mE5-small,1
+D082,fit,dialect,no,48,mE5-small,1
+D085,fit,standard,all,36,mE5-small,2
+D085,fit,dialect,yes,36,mE5-small,2
+D088,val,standard,all,35,mE5-small,2
+D088,val,dialect,yes,35,mE5-small,2
+D090,fit,standard,all,119,mE5-small,1
+D090,fit,dialect,no,119,mE5-small,1
+D093,fit,standard,all,52,mE5-small,1
+D093,fit,dialect,no,52,mE5-small,1
+D094,val,standard,all,84,mE5-small,1
+D094,val,dialect,yes,84,mE5-small,1
+D098,fit,standard,all,76,mE5-small,1
+D098,fit,dialect,yes,76,mE5-small,1
+D100,val,standard,all,32,mE5-small,3
+D100,val,dialect,yes,32,mE5-small,3
+D103,val,standard,all,2,mE5-small,1
+D103,val,dialect,yes,2,mE5-small,1
+D104,fit,standard,all,46,mE5-small,1
+D104,fit,dialect,no,46,mE5-small,1
+D105,fit,standard,all,54,mE5-small,1
+D105,fit,dialect,yes,54,mE5-small,1
+D107,val,standard,all,26,mE5-small,1
+D107,val,dialect,yes,26,mE5-small,1
+D109,fit,standard,all,114,mE5-small,1
+D109,fit,dialect,yes,114,mE5-small,1
+D110,fit,standard,all,41,mE5-small,1
+D110,fit,dialect,no,41,mE5-small,1
+D111,fit,standard,all,45,mE5-small,1
+D111,fit,dialect,no,45,mE5-small,1
+D112,fit,standard,all,74,mE5-small,1
+D112,fit,dialect,no,74,mE5-small,1
+D113,fit,standard,all,12,mE5-small,3
+D113,fit,dialect,no,12,mE5-small,3
+D115,val,standard,all,117,mE5-small,1
+D115,val,dialect,yes,117,mE5-small,1
+D116,fit,standard,all,61,mE5-small,1
+D116,fit,dialect,no,61,mE5-small,1
+D117,fit,standard,all,92,mE5-small,1
+D117,fit,dialect,yes,92,mE5-small,1
+D120,fit,standard,all,42,mE5-small,1
+D120,fit,dialect,yes,42,mE5-small,1
+D122,val,standard,all,81,mE5-small,1
+D122,val,dialect,no,81,mE5-small,1
+D125,fit,standard,all,39,mE5-small,1
+D125,fit,dialect,no,39,mE5-small,1
+D126,fit,standard,all,29,mE5-small,3
+D126,fit,dialect,yes,29,mE5-small,2
+D128,val,standard,all,30,mE5-small,2
+D128,val,dialect,yes,30,mE5-small,2
+D131,val,standard,all,25,mE5-small,1
+D131,val,dialect,yes,25,mE5-small,1
+D132,fit,standard,all,80,mE5-small,1
+D132,fit,dialect,yes,80,mE5-small,1
+D134,val,standard,all,84,mE5-small,1
+D134,val,dialect,no,84,mE5-small,1
+D135,fit,standard,all,3,mE5-small,1
+D135,fit,dialect,yes,3,mE5-small,1
+D136,fit,standard,all,27,mE5-small,1
+D136,fit,dialect,no,27,mE5-small,1
+D137,fit,standard,all,82,mE5-small,1
+D137,fit,dialect,yes,82,mE5-small,1
+D138,fit,standard,all,28,mE5-small,1
+D138,fit,dialect,yes,28,mE5-small,1
+D139,fit,standard,all,36,mE5-small,2
+D139,fit,dialect,yes,36,mE5-small,3
+D140,fit,standard,all,121,mE5-small,1
+D140,fit,dialect,no,121,mE5-small,1
+D141,fit,standard,all,46,mE5-small,1
+D141,fit,dialect,no,46,mE5-small,1
+D145,fit,standard,all,8,mE5-small,1
+D145,fit,dialect,yes,8,mE5-small,1
+D150,fit,standard,all,93,mE5-small,1
+D150,fit,dialect,no,93,mE5-small,1
+D151,fit,standard,all,23,mE5-small,1
+D151,fit,dialect,yes,23,mE5-small,1
+D152,val,standard,all,34,mE5-small,4
+D152,val,dialect,yes,34,mE5-small,2
+D156,fit,standard,all,85,mE5-small,1
+D156,fit,dialect,yes,85,mE5-small,1
+D157,val,standard,all,107,mE5-small,1
+D157,val,dialect,no,107,mE5-small,1
+D158,val,standard,all,78,mE5-small,1
+D158,val,dialect,no,78,mE5-small,1
+D164,val,standard,all,53,mE5-small,1
+D164,val,dialect,no,53,mE5-small,1
+D165,fit,standard,all,39,mE5-small,1
+D165,fit,dialect,yes,39,mE5-small,1
+D167,val,standard,all,129,mE5-small,1
+D167,val,dialect,yes,129,mE5-small,1
+D168,fit,standard,all,125,mE5-small,2
+D168,fit,dialect,no,125,mE5-small,2
+D169,fit,standard,all,57,mE5-small,1
+D169,fit,dialect,yes,57,mE5-small,1
+D172,fit,standard,all,24,mE5-small,1
+D172,fit,dialect,yes,24,mE5-small,1
+D173,fit,standard,all,103,mE5-small,2
+D173,fit,dialect,yes,103,mE5-small,1
+D175,fit,standard,all,58,mE5-small,1
+D175,fit,dialect,no,58,mE5-small,1
+D177,fit,standard,all,89,mE5-small,1
+D177,fit,dialect,yes,89,mE5-small,1
+D180,fit,standard,all,14,mE5-small,1
+D180,fit,dialect,yes,14,mE5-small,1
+D188,val,standard,all,41,mE5-small,1
+D188,val,dialect,no,41,mE5-small,1
+D190,val,standard,all,7,mE5-small,1
+D190,val,dialect,yes,7,mE5-small,1
+D195,fit,standard,all,0,mE5-small,1
+D195,fit,dialect,no,0,mE5-small,1
+D198,fit,standard,all,113,mE5-small,1
+D198,fit,dialect,no,113,mE5-small,1
+D199,val,standard,all,5,mE5-small,1
+D199,val,dialect,no,5,mE5-small,1
+D200,val,standard,all,100,mE5-small,1
+D200,val,dialect,no,100,mE5-small,1
+D201,val,standard,all,33,mE5-small,1
+D201,val,dialect,yes,33,mE5-small,1
+D203,fit,standard,all,31,mE5-small,1
+D203,fit,dialect,yes,31,mE5-small,1
+D204,fit,standard,all,79,mE5-small,1
+D204,fit,dialect,yes,79,mE5-small,1
+D205,fit,standard,all,49,mE5-small,1
+D205,fit,dialect,no,49,mE5-small,1
+D206,fit,standard,all,75,mE5-small,1
+D206,fit,dialect,no,75,mE5-small,1
+D207,fit,standard,all,29,mE5-small,11
+D207,fit,dialect,no,29,mE5-small,11
+D209,fit,standard,all,87,mE5-small,1
+D209,fit,dialect,yes,87,mE5-small,1
+D210,val,standard,all,23,mE5-small,1
+D210,val,dialect,yes,23,mE5-small,1
+D212,fit,standard,all,2,mE5-small,1
+D212,fit,dialect,no,2,mE5-small,1
+D213,val,standard,all,43,mE5-small,1
+D213,val,dialect,no,43,mE5-small,1
+D214,fit,standard,all,102,mE5-small,1
+D214,fit,dialect,no,102,mE5-small,1
+D215,val,standard,all,28,mE5-small,1
+D215,val,dialect,yes,28,mE5-small,1
+D219,fit,standard,all,27,mE5-small,7
+D219,fit,dialect,yes,27,mE5-small,11
+D220,fit,standard,all,7,mE5-small,1
+D220,fit,dialect,no,7,mE5-small,1
+D221,fit,standard,all,52,mE5-small,1
+D221,fit,dialect,no,52,mE5-small,1
+D223,fit,standard,all,12,mE5-small,1
+D223,fit,dialect,no,12,mE5-small,1
+D224,fit,standard,all,32,mE5-small,1
+D224,fit,dialect,yes,32,mE5-small,1
+D226,fit,standard,all,10,mE5-small,1
+D226,fit,dialect,no,10,mE5-small,1
+D227,fit,standard,all,116,mE5-small,1
+D227,fit,dialect,no,116,mE5-small,1
+D230,fit,standard,all,113,mE5-small,1
+D230,fit,dialect,no,113,mE5-small,1
+D236,fit,standard,all,86,mE5-small,1
+D236,fit,dialect,no,86,mE5-small,1
+D239,fit,standard,all,88,mE5-small,1
+D239,fit,dialect,no,88,mE5-small,1
+D241,fit,standard,all,53,mE5-small,1
+D241,fit,dialect,no,53,mE5-small,1
+D242,val,standard,all,89,mE5-small,1
+D242,val,dialect,no,89,mE5-small,1
+D245,fit,standard,all,34,mE5-small,1
+D245,fit,dialect,yes,34,mE5-small,1
+D246,fit,standard,all,77,mE5-small,1
+D246,fit,dialect,yes,77,mE5-small,1
+D250,fit,standard,all,31,mE5-small,1
+D250,fit,dialect,no,31,mE5-small,1
+D251,fit,standard,all,47,mE5-small,1
+D251,fit,dialect,no,47,mE5-small,1
+D252,val,standard,all,40,mE5-small,1
+D252,val,dialect,no,40,mE5-small,1
+D255,fit,standard,all,104,mE5-small,1
+D255,fit,dialect,no,104,mE5-small,1
+D258,fit,standard,all,119,mE5-small,1
+D258,fit,dialect,no,119,mE5-small,1
+D259,fit,standard,all,78,mE5-small,1
+D259,fit,dialect,yes,78,mE5-small,1
+D260,fit,standard,all,13,mE5-small,1
+D260,fit,dialect,no,13,mE5-small,1
+D261,fit,standard,all,123,mE5-small,1
+D261,fit,dialect,no,123,mE5-small,1
+D263,fit,standard,all,83,mE5-small,1
+D263,fit,dialect,yes,83,mE5-small,1
+D264,val,standard,all,128,mE5-small,1
+D264,val,dialect,yes,128,mE5-small,1
+D265,fit,standard,all,76,mE5-small,1
+D265,fit,dialect,yes,76,mE5-small,1
+D266,fit,standard,all,104,mE5-small,1
+D266,fit,dialect,no,104,mE5-small,1
+D268,fit,standard,all,50,mE5-small,1
+D268,fit,dialect,no,50,mE5-small,1
+D270,fit,standard,all,74,mE5-small,1
+D270,fit,dialect,no,74,mE5-small,1
+D271,val,standard,all,11,mE5-small,1
+D271,val,dialect,yes,11,mE5-small,1
+D273,fit,standard,all,106,mE5-small,1
+D273,fit,dialect,no,106,mE5-small,1
+D276,fit,standard,all,60,mE5-small,1
+D276,fit,dialect,no,60,mE5-small,1
+D277,val,standard,all,88,mE5-small,1
+D277,val,dialect,yes,88,mE5-small,1
+D280,fit,standard,all,122,mE5-small,1
+D280,fit,dialect,no,122,mE5-small,1
+D281,fit,standard,all,6,mE5-small,3
+D281,fit,dialect,no,6,mE5-small,3
+D284,fit,standard,all,14,mE5-small,1
+D284,fit,dialect,no,14,mE5-small,1
+D285,val,standard,all,0,mE5-small,1
+D285,val,dialect,yes,0,mE5-small,1
+D289,fit,standard,all,9,mE5-small,1
+D289,fit,dialect,yes,9,mE5-small,1
+D292,fit,standard,all,40,mE5-small,1
+D292,fit,dialect,yes,40,mE5-small,1
+D296,fit,standard,all,110,mE5-small,1
+D296,fit,dialect,no,110,mE5-small,1
+D297,fit,standard,all,23,mE5-small,10
+D297,fit,dialect,yes,23,mE5-small,18
+D299,fit,standard,all,55,mE5-small,2
+D299,fit,dialect,no,55,mE5-small,2
+D301,val,standard,all,118,mE5-small,2
+D301,val,dialect,no,118,mE5-small,2
+D303,val,standard,all,90,mE5-small,1
+D303,val,dialect,yes,90,mE5-small,1
+D305,fit,standard,all,35,mE5-small,3
+D305,fit,dialect,yes,35,mE5-small,2
+D310,fit,standard,all,105,mE5-small,1
+D310,fit,dialect,no,105,mE5-small,1
+D312,fit,standard,all,101,mE5-small,1
+D312,fit,dialect,no,101,mE5-small,1
+D313,fit,standard,all,23,mE5-small,4
+D313,fit,dialect,yes,23,mE5-small,7
+D314,val,standard,all,83,mE5-small,1
+D314,val,dialect,yes,83,mE5-small,1
+D317,fit,standard,all,55,mE5-small,1
+D317,fit,dialect,yes,55,mE5-small,1
+D318,val,standard,all,62,mE5-small,1
+D318,val,dialect,yes,62,mE5-small,1
+D321,fit,standard,all,24,mE5-small,2
+D321,fit,dialect,yes,24,mE5-small,2
+D326,val,standard,all,77,mE5-small,1
+D326,val,dialect,no,77,mE5-small,1
+D327,fit,standard,all,58,mE5-small,1
+D327,fit,dialect,no,58,mE5-small,1
+D329,fit,standard,all,43,mE5-small,1
+D329,fit,dialect,no,43,mE5-small,1
+D330,val,standard,all,124,mE5-small,1
+D330,val,dialect,yes,124,mE5-small,1
+D334,fit,standard,all,86,mE5-small,1
+D334,fit,dialect,no,86,mE5-small,1
+D335,fit,standard,all,51,mE5-small,1
+D335,fit,dialect,yes,51,mE5-small,1
+D336,fit,standard,all,26,mE5-small,9
+D336,fit,dialect,yes,26,mE5-small,11
+D337,fit,standard,all,49,mE5-small,1
+D337,fit,dialect,no,49,mE5-small,1
+D345,fit,standard,all,75,mE5-small,1
+D345,fit,dialect,no,75,mE5-small,1
+D346,val,standard,all,59,mE5-small,1
+D346,val,dialect,no,59,mE5-small,1
+D348,fit,standard,all,115,mE5-small,1
+D348,fit,dialect,no,115,mE5-small,1
+D350,fit,standard,all,126,mE5-small,1
+D350,fit,dialect,yes,126,mE5-small,1
+D353,val,standard,all,109,mE5-small,1
+D353,val,dialect,no,109,mE5-small,1
+D355,fit,standard,all,10,mE5-small,2
+D355,fit,dialect,yes,10,mE5-small,2
+D360,fit,standard,all,3,mE5-small,1
+D360,fit,dialect,no,3,mE5-small,1
+D361,val,standard,all,63,mE5-small,1
+D361,val,dialect,no,63,mE5-small,1
+D363,fit,standard,all,51,mE5-small,1
+D363,fit,dialect,yes,51,mE5-small,1
+D365,val,standard,all,4,mE5-small,1
+D365,val,dialect,no,4,mE5-small,1
+D367,fit,standard,all,112,mE5-small,1
+D367,fit,dialect,no,112,mE5-small,1
+D368,fit,standard,all,54,mE5-small,1
+D368,fit,dialect,no,54,mE5-small,1
+D369,fit,standard,all,33,mE5-small,1
+D369,fit,dialect,yes,33,mE5-small,1
+D371,fit,standard,all,37,mE5-small,2
+D371,fit,dialect,yes,37,mE5-small,2
+D372,fit,standard,all,87,mE5-small,1
+D372,fit,dialect,no,87,mE5-small,1
+D375,val,standard,all,90,mE5-small,1
+D375,val,dialect,yes,90,mE5-small,1
+D376,val,standard,all,91,mE5-small,2
+D376,val,dialect,no,91,mE5-small,2
+D377,val,standard,all,127,mE5-small,1
+D377,val,dialect,no,127,mE5-small,1
+D379,val,standard,all,1,mE5-small,1
+D379,val,dialect,no,1,mE5-small,1
+D382,val,standard,all,108,mE5-small,1
+D382,val,dialect,yes,108,mE5-small,1
+D384,val,standard,all,82,mE5-small,1
+D384,val,dialect,no,82,mE5-small,1
+D385,fit,standard,all,92,mE5-small,2
+D385,fit,dialect,no,92,mE5-small,2
+D387,fit,standard,all,120,mE5-small,1
+D387,fit,dialect,no,120,mE5-small,1
+D388,val,standard,all,56,mE5-small,1
+D388,val,dialect,yes,56,mE5-small,1
+D390,fit,standard,all,100,mE5-small,2
+D390,fit,dialect,no,100,mE5-small,2
+D392,fit,standard,all,44,mE5-small,1
+D392,fit,dialect,no,44,mE5-small,1
+D394,val,standard,all,30,mE5-small,1
+D394,val,dialect,no,30,mE5-small,1
+D396,val,standard,all,25,mE5-small,2
+D396,val,dialect,no,25,mE5-small,2
+D399,fit,standard,all,111,mE5-small,1
+D399,fit,dialect,yes,111,mE5-small,1
+D001,val,standard,all,4,bangla-e5-small (prefix),1
+D001,val,dialect,yes,4,bangla-e5-small (prefix),1
+D002,fit,standard,all,1,bangla-e5-small (prefix),1
+D002,fit,dialect,yes,1,bangla-e5-small (prefix),1
+D003,fit,standard,all,10,bangla-e5-small (prefix),1
+D003,fit,dialect,yes,10,bangla-e5-small (prefix),1
+D004,fit,standard,all,6,bangla-e5-small (prefix),1
+D004,fit,dialect,yes,6,bangla-e5-small (prefix),1
+D005,fit,standard,all,13,bangla-e5-small (prefix),1
+D005,fit,dialect,yes,13,bangla-e5-small (prefix),1
+D006,fit,standard,all,2,bangla-e5-small (prefix),1
+D006,fit,dialect,yes,2,bangla-e5-small (prefix),1
+D007,fit,standard,all,5,bangla-e5-small (prefix),1
+D007,fit,dialect,yes,5,bangla-e5-small (prefix),1
+D008,fit,standard,all,51,bangla-e5-small (prefix),1
+D008,fit,dialect,yes,51,bangla-e5-small (prefix),1
+D009,val,standard,all,48,bangla-e5-small (prefix),1
+D009,val,dialect,yes,48,bangla-e5-small (prefix),1
+D010,val,standard,all,62,bangla-e5-small (prefix),1
+D010,val,dialect,yes,62,bangla-e5-small (prefix),1
+D011,val,standard,all,58,bangla-e5-small (prefix),1
+D011,val,dialect,yes,58,bangla-e5-small (prefix),1
+D012,val,standard,all,45,bangla-e5-small (prefix),1
+D012,val,dialect,yes,45,bangla-e5-small (prefix),1
+D013,fit,standard,all,49,bangla-e5-small (prefix),1
+D013,fit,dialect,yes,49,bangla-e5-small (prefix),1
+D014,fit,standard,all,80,bangla-e5-small (prefix),1
+D014,fit,dialect,yes,80,bangla-e5-small (prefix),1
+D015,fit,standard,all,82,bangla-e5-small (prefix),1
+D015,fit,dialect,yes,82,bangla-e5-small (prefix),2
+D016,val,standard,all,88,bangla-e5-small (prefix),1
+D016,val,dialect,yes,88,bangla-e5-small (prefix),1
+D017,fit,standard,all,76,bangla-e5-small (prefix),1
+D017,fit,dialect,yes,76,bangla-e5-small (prefix),1
+D018,fit,standard,all,90,bangla-e5-small (prefix),1
+D018,fit,dialect,yes,90,bangla-e5-small (prefix),1
+D019,fit,standard,all,125,bangla-e5-small (prefix),1
+D019,fit,dialect,yes,125,bangla-e5-small (prefix),1
+D020,val,standard,all,107,bangla-e5-small (prefix),1
+D020,val,dialect,yes,107,bangla-e5-small (prefix),1
+D021,fit,standard,all,111,bangla-e5-small (prefix),1
+D021,fit,dialect,yes,111,bangla-e5-small (prefix),1
+D022,fit,standard,all,128,bangla-e5-small (prefix),1
+D022,fit,dialect,yes,128,bangla-e5-small (prefix),1
+D023,val,standard,all,100,bangla-e5-small (prefix),1
+D023,val,dialect,yes,100,bangla-e5-small (prefix),1
+D024,val,standard,all,127,bangla-e5-small (prefix),1
+D024,val,dialect,yes,127,bangla-e5-small (prefix),1
+D055,fit,standard,all,25,bangla-e5-small (prefix),1
+D055,fit,dialect,yes,25,bangla-e5-small (prefix),1
+D056,fit,standard,all,23,bangla-e5-small (prefix),2
+D056,fit,dialect,yes,23,bangla-e5-small (prefix),1
+D057,val,standard,all,24,bangla-e5-small (prefix),1
+D057,val,dialect,yes,24,bangla-e5-small (prefix),1
+D058,fit,standard,all,37,bangla-e5-small (prefix),1
+D058,fit,dialect,yes,37,bangla-e5-small (prefix),1
+D059,fit,standard,all,26,bangla-e5-small (prefix),2
+D059,fit,dialect,yes,26,bangla-e5-small (prefix),2
+D060,fit,standard,all,36,bangla-e5-small (prefix),1
+D060,fit,dialect,yes,36,bangla-e5-small (prefix),1
+D063,fit,standard,all,25,bangla-e5-small (prefix),1
+D063,fit,dialect,yes,25,bangla-e5-small (prefix),1
+D064,val,standard,all,11,bangla-e5-small (prefix),1
+D064,val,dialect,yes,11,bangla-e5-small (prefix),1
+D065,fit,standard,all,80,bangla-e5-small (prefix),2
+D065,fit,dialect,yes,80,bangla-e5-small (prefix),2
+D066,fit,standard,all,91,bangla-e5-small (prefix),1
+D066,fit,dialect,no,91,bangla-e5-small (prefix),1
+D067,fit,standard,all,108,bangla-e5-small (prefix),1
+D067,fit,dialect,yes,108,bangla-e5-small (prefix),1
+D068,val,standard,all,56,bangla-e5-small (prefix),1
+D068,val,dialect,no,56,bangla-e5-small (prefix),1
+D069,fit,standard,all,27,bangla-e5-small (prefix),5
+D069,fit,dialect,yes,27,bangla-e5-small (prefix),20
+D072,fit,standard,all,47,bangla-e5-small (prefix),1
+D072,fit,dialect,no,47,bangla-e5-small (prefix),1
+D074,fit,standard,all,81,bangla-e5-small (prefix),1
+D074,fit,dialect,yes,81,bangla-e5-small (prefix),1
+D078,fit,standard,all,37,bangla-e5-small (prefix),1
+D078,fit,dialect,no,37,bangla-e5-small (prefix),1
+D079,fit,standard,all,85,bangla-e5-small (prefix),1
+D079,fit,dialect,yes,85,bangla-e5-small (prefix),1
+D080,fit,standard,all,123,bangla-e5-small (prefix),1
+D080,fit,dialect,no,123,bangla-e5-small (prefix),1
+D082,fit,standard,all,48,bangla-e5-small (prefix),1
+D082,fit,dialect,no,48,bangla-e5-small (prefix),1
+D085,fit,standard,all,36,bangla-e5-small (prefix),2
+D085,fit,dialect,yes,36,bangla-e5-small (prefix),2
+D088,val,standard,all,35,bangla-e5-small (prefix),1
+D088,val,dialect,yes,35,bangla-e5-small (prefix),1
+D090,fit,standard,all,119,bangla-e5-small (prefix),1
+D090,fit,dialect,no,119,bangla-e5-small (prefix),1
+D093,fit,standard,all,52,bangla-e5-small (prefix),1
+D093,fit,dialect,no,52,bangla-e5-small (prefix),1
+D094,val,standard,all,84,bangla-e5-small (prefix),1
+D094,val,dialect,yes,84,bangla-e5-small (prefix),1
+D098,fit,standard,all,76,bangla-e5-small (prefix),1
+D098,fit,dialect,yes,76,bangla-e5-small (prefix),1
+D100,val,standard,all,32,bangla-e5-small (prefix),2
+D100,val,dialect,yes,32,bangla-e5-small (prefix),3
+D103,val,standard,all,2,bangla-e5-small (prefix),1
+D103,val,dialect,yes,2,bangla-e5-small (prefix),1
+D104,fit,standard,all,46,bangla-e5-small (prefix),1
+D104,fit,dialect,no,46,bangla-e5-small (prefix),1
+D105,fit,standard,all,54,bangla-e5-small (prefix),1
+D105,fit,dialect,yes,54,bangla-e5-small (prefix),1
+D107,val,standard,all,26,bangla-e5-small (prefix),1
+D107,val,dialect,yes,26,bangla-e5-small (prefix),1
+D109,fit,standard,all,114,bangla-e5-small (prefix),1
+D109,fit,dialect,yes,114,bangla-e5-small (prefix),1
+D110,fit,standard,all,41,bangla-e5-small (prefix),1
+D110,fit,dialect,no,41,bangla-e5-small (prefix),1
+D111,fit,standard,all,45,bangla-e5-small (prefix),1
+D111,fit,dialect,no,45,bangla-e5-small (prefix),1
+D112,fit,standard,all,74,bangla-e5-small (prefix),1
+D112,fit,dialect,no,74,bangla-e5-small (prefix),1
+D113,fit,standard,all,12,bangla-e5-small (prefix),1
+D113,fit,dialect,no,12,bangla-e5-small (prefix),1
+D115,val,standard,all,117,bangla-e5-small (prefix),1
+D115,val,dialect,yes,117,bangla-e5-small (prefix),1
+D116,fit,standard,all,61,bangla-e5-small (prefix),1
+D116,fit,dialect,no,61,bangla-e5-small (prefix),1
+D117,fit,standard,all,92,bangla-e5-small (prefix),1
+D117,fit,dialect,yes,92,bangla-e5-small (prefix),1
+D120,fit,standard,all,42,bangla-e5-small (prefix),1
+D120,fit,dialect,yes,42,bangla-e5-small (prefix),1
+D122,val,standard,all,81,bangla-e5-small (prefix),1
+D122,val,dialect,no,81,bangla-e5-small (prefix),1
+D125,fit,standard,all,39,bangla-e5-small (prefix),1
+D125,fit,dialect,no,39,bangla-e5-small (prefix),1
+D126,fit,standard,all,29,bangla-e5-small (prefix),2
+D126,fit,dialect,yes,29,bangla-e5-small (prefix),2
+D128,val,standard,all,30,bangla-e5-small (prefix),7
+D128,val,dialect,yes,30,bangla-e5-small (prefix),7
+D131,val,standard,all,25,bangla-e5-small (prefix),1
+D131,val,dialect,yes,25,bangla-e5-small (prefix),1
+D132,fit,standard,all,80,bangla-e5-small (prefix),1
+D132,fit,dialect,yes,80,bangla-e5-small (prefix),1
+D134,val,standard,all,84,bangla-e5-small (prefix),1
+D134,val,dialect,no,84,bangla-e5-small (prefix),1
+D135,fit,standard,all,3,bangla-e5-small (prefix),1
+D135,fit,dialect,yes,3,bangla-e5-small (prefix),1
+D136,fit,standard,all,27,bangla-e5-small (prefix),2
+D136,fit,dialect,no,27,bangla-e5-small (prefix),2
+D137,fit,standard,all,82,bangla-e5-small (prefix),1
+D137,fit,dialect,yes,82,bangla-e5-small (prefix),1
+D138,fit,standard,all,28,bangla-e5-small (prefix),1
+D138,fit,dialect,yes,28,bangla-e5-small (prefix),2
+D139,fit,standard,all,36,bangla-e5-small (prefix),11
+D139,fit,dialect,yes,36,bangla-e5-small (prefix),17
+D140,fit,standard,all,121,bangla-e5-small (prefix),1
+D140,fit,dialect,no,121,bangla-e5-small (prefix),1
+D141,fit,standard,all,46,bangla-e5-small (prefix),1
+D141,fit,dialect,no,46,bangla-e5-small (prefix),1
+D145,fit,standard,all,8,bangla-e5-small (prefix),1
+D145,fit,dialect,yes,8,bangla-e5-small (prefix),1
+D150,fit,standard,all,93,bangla-e5-small (prefix),1
+D150,fit,dialect,no,93,bangla-e5-small (prefix),1
+D151,fit,standard,all,23,bangla-e5-small (prefix),1
+D151,fit,dialect,yes,23,bangla-e5-small (prefix),1
+D152,val,standard,all,34,bangla-e5-small (prefix),1
+D152,val,dialect,yes,34,bangla-e5-small (prefix),1
+D156,fit,standard,all,85,bangla-e5-small (prefix),5
+D156,fit,dialect,yes,85,bangla-e5-small (prefix),5
+D157,val,standard,all,107,bangla-e5-small (prefix),1
+D157,val,dialect,no,107,bangla-e5-small (prefix),1
+D158,val,standard,all,78,bangla-e5-small (prefix),1
+D158,val,dialect,no,78,bangla-e5-small (prefix),1
+D164,val,standard,all,53,bangla-e5-small (prefix),5
+D164,val,dialect,no,53,bangla-e5-small (prefix),5
+D165,fit,standard,all,39,bangla-e5-small (prefix),1
+D165,fit,dialect,yes,39,bangla-e5-small (prefix),1
+D167,val,standard,all,129,bangla-e5-small (prefix),1
+D167,val,dialect,yes,129,bangla-e5-small (prefix),1
+D168,fit,standard,all,125,bangla-e5-small (prefix),1
+D168,fit,dialect,no,125,bangla-e5-small (prefix),1
+D169,fit,standard,all,57,bangla-e5-small (prefix),1
+D169,fit,dialect,yes,57,bangla-e5-small (prefix),1
+D172,fit,standard,all,24,bangla-e5-small (prefix),1
+D172,fit,dialect,yes,24,bangla-e5-small (prefix),1
+D173,fit,standard,all,103,bangla-e5-small (prefix),1
+D173,fit,dialect,yes,103,bangla-e5-small (prefix),1
+D175,fit,standard,all,58,bangla-e5-small (prefix),1
+D175,fit,dialect,no,58,bangla-e5-small (prefix),1
+D177,fit,standard,all,89,bangla-e5-small (prefix),1
+D177,fit,dialect,yes,89,bangla-e5-small (prefix),1
+D180,fit,standard,all,14,bangla-e5-small (prefix),5
+D180,fit,dialect,yes,14,bangla-e5-small (prefix),4
+D188,val,standard,all,41,bangla-e5-small (prefix),1
+D188,val,dialect,no,41,bangla-e5-small (prefix),1
+D190,val,standard,all,7,bangla-e5-small (prefix),1
+D190,val,dialect,yes,7,bangla-e5-small (prefix),1
+D195,fit,standard,all,0,bangla-e5-small (prefix),1
+D195,fit,dialect,no,0,bangla-e5-small (prefix),1
+D198,fit,standard,all,113,bangla-e5-small (prefix),1
+D198,fit,dialect,no,113,bangla-e5-small (prefix),1
+D199,val,standard,all,5,bangla-e5-small (prefix),1
+D199,val,dialect,no,5,bangla-e5-small (prefix),1
+D200,val,standard,all,100,bangla-e5-small (prefix),1
+D200,val,dialect,no,100,bangla-e5-small (prefix),1
+D201,val,standard,all,33,bangla-e5-small (prefix),1
+D201,val,dialect,yes,33,bangla-e5-small (prefix),1
+D203,fit,standard,all,31,bangla-e5-small (prefix),1
+D203,fit,dialect,yes,31,bangla-e5-small (prefix),1
+D204,fit,standard,all,79,bangla-e5-small (prefix),1
+D204,fit,dialect,yes,79,bangla-e5-small (prefix),1
+D205,fit,standard,all,49,bangla-e5-small (prefix),1
+D205,fit,dialect,no,49,bangla-e5-small (prefix),1
+D206,fit,standard,all,75,bangla-e5-small (prefix),1
+D206,fit,dialect,no,75,bangla-e5-small (prefix),1
+D207,fit,standard,all,29,bangla-e5-small (prefix),4
+D207,fit,dialect,no,29,bangla-e5-small (prefix),4
+D209,fit,standard,all,87,bangla-e5-small (prefix),1
+D209,fit,dialect,yes,87,bangla-e5-small (prefix),1
+D210,val,standard,all,23,bangla-e5-small (prefix),1
+D210,val,dialect,yes,23,bangla-e5-small (prefix),1
+D212,fit,standard,all,2,bangla-e5-small (prefix),1
+D212,fit,dialect,no,2,bangla-e5-small (prefix),1
+D213,val,standard,all,43,bangla-e5-small (prefix),1
+D213,val,dialect,no,43,bangla-e5-small (prefix),1
+D214,fit,standard,all,102,bangla-e5-small (prefix),1
+D214,fit,dialect,no,102,bangla-e5-small (prefix),1
+D215,val,standard,all,28,bangla-e5-small (prefix),2
+D215,val,dialect,yes,28,bangla-e5-small (prefix),1
+D219,fit,standard,all,27,bangla-e5-small (prefix),10
+D219,fit,dialect,yes,27,bangla-e5-small (prefix),33
+D220,fit,standard,all,7,bangla-e5-small (prefix),1
+D220,fit,dialect,no,7,bangla-e5-small (prefix),1
+D221,fit,standard,all,52,bangla-e5-small (prefix),1
+D221,fit,dialect,no,52,bangla-e5-small (prefix),1
+D223,fit,standard,all,12,bangla-e5-small (prefix),1
+D223,fit,dialect,no,12,bangla-e5-small (prefix),1
+D224,fit,standard,all,32,bangla-e5-small (prefix),1
+D224,fit,dialect,yes,32,bangla-e5-small (prefix),1
+D226,fit,standard,all,10,bangla-e5-small (prefix),2
+D226,fit,dialect,no,10,bangla-e5-small (prefix),2
+D227,fit,standard,all,116,bangla-e5-small (prefix),1
+D227,fit,dialect,no,116,bangla-e5-small (prefix),1
+D230,fit,standard,all,113,bangla-e5-small (prefix),1
+D230,fit,dialect,no,113,bangla-e5-small (prefix),1
+D236,fit,standard,all,86,bangla-e5-small (prefix),5
+D236,fit,dialect,no,86,bangla-e5-small (prefix),5
+D239,fit,standard,all,88,bangla-e5-small (prefix),1
+D239,fit,dialect,no,88,bangla-e5-small (prefix),1
+D241,fit,standard,all,53,bangla-e5-small (prefix),1
+D241,fit,dialect,no,53,bangla-e5-small (prefix),1
+D242,val,standard,all,89,bangla-e5-small (prefix),1
+D242,val,dialect,no,89,bangla-e5-small (prefix),1
+D245,fit,standard,all,34,bangla-e5-small (prefix),5
+D245,fit,dialect,yes,34,bangla-e5-small (prefix),5
+D246,fit,standard,all,77,bangla-e5-small (prefix),1
+D246,fit,dialect,yes,77,bangla-e5-small (prefix),1
+D250,fit,standard,all,31,bangla-e5-small (prefix),1
+D250,fit,dialect,no,31,bangla-e5-small (prefix),1
+D251,fit,standard,all,47,bangla-e5-small (prefix),1
+D251,fit,dialect,no,47,bangla-e5-small (prefix),1
+D252,val,standard,all,40,bangla-e5-small (prefix),1
+D252,val,dialect,no,40,bangla-e5-small (prefix),1
+D255,fit,standard,all,104,bangla-e5-small (prefix),1
+D255,fit,dialect,no,104,bangla-e5-small (prefix),1
+D258,fit,standard,all,119,bangla-e5-small (prefix),1
+D258,fit,dialect,no,119,bangla-e5-small (prefix),1
+D259,fit,standard,all,78,bangla-e5-small (prefix),1
+D259,fit,dialect,yes,78,bangla-e5-small (prefix),1
+D260,fit,standard,all,13,bangla-e5-small (prefix),1
+D260,fit,dialect,no,13,bangla-e5-small (prefix),1
+D261,fit,standard,all,123,bangla-e5-small (prefix),1
+D261,fit,dialect,no,123,bangla-e5-small (prefix),1
+D263,fit,standard,all,83,bangla-e5-small (prefix),1
+D263,fit,dialect,yes,83,bangla-e5-small (prefix),1
+D264,val,standard,all,128,bangla-e5-small (prefix),1
+D264,val,dialect,yes,128,bangla-e5-small (prefix),1
+D265,fit,standard,all,76,bangla-e5-small (prefix),1
+D265,fit,dialect,yes,76,bangla-e5-small (prefix),1
+D266,fit,standard,all,104,bangla-e5-small (prefix),1
+D266,fit,dialect,no,104,bangla-e5-small (prefix),1
+D268,fit,standard,all,50,bangla-e5-small (prefix),1
+D268,fit,dialect,no,50,bangla-e5-small (prefix),1
+D270,fit,standard,all,74,bangla-e5-small (prefix),1
+D270,fit,dialect,no,74,bangla-e5-small (prefix),1
+D271,val,standard,all,11,bangla-e5-small (prefix),1
+D271,val,dialect,yes,11,bangla-e5-small (prefix),1
+D273,fit,standard,all,106,bangla-e5-small (prefix),1
+D273,fit,dialect,no,106,bangla-e5-small (prefix),1
+D276,fit,standard,all,60,bangla-e5-small (prefix),1
+D276,fit,dialect,no,60,bangla-e5-small (prefix),1
+D277,val,standard,all,88,bangla-e5-small (prefix),1
+D277,val,dialect,yes,88,bangla-e5-small (prefix),1
+D280,fit,standard,all,122,bangla-e5-small (prefix),1
+D280,fit,dialect,no,122,bangla-e5-small (prefix),1
+D281,fit,standard,all,6,bangla-e5-small (prefix),6
+D281,fit,dialect,no,6,bangla-e5-small (prefix),6
+D284,fit,standard,all,14,bangla-e5-small (prefix),1
+D284,fit,dialect,no,14,bangla-e5-small (prefix),1
+D285,val,standard,all,0,bangla-e5-small (prefix),2
+D285,val,dialect,yes,0,bangla-e5-small (prefix),3
+D289,fit,standard,all,9,bangla-e5-small (prefix),1
+D289,fit,dialect,yes,9,bangla-e5-small (prefix),1
+D292,fit,standard,all,40,bangla-e5-small (prefix),1
+D292,fit,dialect,yes,40,bangla-e5-small (prefix),1
+D296,fit,standard,all,110,bangla-e5-small (prefix),1
+D296,fit,dialect,no,110,bangla-e5-small (prefix),1
+D297,fit,standard,all,23,bangla-e5-small (prefix),1
+D297,fit,dialect,yes,23,bangla-e5-small (prefix),1
+D299,fit,standard,all,55,bangla-e5-small (prefix),1
+D299,fit,dialect,no,55,bangla-e5-small (prefix),1
+D301,val,standard,all,118,bangla-e5-small (prefix),2
+D301,val,dialect,no,118,bangla-e5-small (prefix),2
+D303,val,standard,all,90,bangla-e5-small (prefix),1
+D303,val,dialect,yes,90,bangla-e5-small (prefix),1
+D305,fit,standard,all,35,bangla-e5-small (prefix),1
+D305,fit,dialect,yes,35,bangla-e5-small (prefix),1
+D310,fit,standard,all,105,bangla-e5-small (prefix),1
+D310,fit,dialect,no,105,bangla-e5-small (prefix),1
+D312,fit,standard,all,101,bangla-e5-small (prefix),1
+D312,fit,dialect,no,101,bangla-e5-small (prefix),1
+D313,fit,standard,all,23,bangla-e5-small (prefix),1
+D313,fit,dialect,yes,23,bangla-e5-small (prefix),1
+D314,val,standard,all,83,bangla-e5-small (prefix),1
+D314,val,dialect,yes,83,bangla-e5-small (prefix),1
+D317,fit,standard,all,55,bangla-e5-small (prefix),1
+D317,fit,dialect,yes,55,bangla-e5-small (prefix),1
+D318,val,standard,all,62,bangla-e5-small (prefix),1
+D318,val,dialect,yes,62,bangla-e5-small (prefix),1
+D321,fit,standard,all,24,bangla-e5-small (prefix),1
+D321,fit,dialect,yes,24,bangla-e5-small (prefix),1
+D326,val,standard,all,77,bangla-e5-small (prefix),1
+D326,val,dialect,no,77,bangla-e5-small (prefix),1
+D327,fit,standard,all,58,bangla-e5-small (prefix),1
+D327,fit,dialect,no,58,bangla-e5-small (prefix),1
+D329,fit,standard,all,43,bangla-e5-small (prefix),1
+D329,fit,dialect,no,43,bangla-e5-small (prefix),1
+D330,val,standard,all,124,bangla-e5-small (prefix),1
+D330,val,dialect,yes,124,bangla-e5-small (prefix),1
+D334,fit,standard,all,86,bangla-e5-small (prefix),1
+D334,fit,dialect,no,86,bangla-e5-small (prefix),1
+D335,fit,standard,all,51,bangla-e5-small (prefix),1
+D335,fit,dialect,yes,51,bangla-e5-small (prefix),2
+D336,fit,standard,all,26,bangla-e5-small (prefix),9
+D336,fit,dialect,yes,26,bangla-e5-small (prefix),11
+D337,fit,standard,all,49,bangla-e5-small (prefix),1
+D337,fit,dialect,no,49,bangla-e5-small (prefix),1
+D345,fit,standard,all,75,bangla-e5-small (prefix),1
+D345,fit,dialect,no,75,bangla-e5-small (prefix),1
+D346,val,standard,all,59,bangla-e5-small (prefix),1
+D346,val,dialect,no,59,bangla-e5-small (prefix),1
+D348,fit,standard,all,115,bangla-e5-small (prefix),1
+D348,fit,dialect,no,115,bangla-e5-small (prefix),1
+D350,fit,standard,all,126,bangla-e5-small (prefix),1
+D350,fit,dialect,yes,126,bangla-e5-small (prefix),1
+D353,val,standard,all,109,bangla-e5-small (prefix),1
+D353,val,dialect,no,109,bangla-e5-small (prefix),1
+D355,fit,standard,all,10,bangla-e5-small (prefix),2
+D355,fit,dialect,yes,10,bangla-e5-small (prefix),2
+D360,fit,standard,all,3,bangla-e5-small (prefix),1
+D360,fit,dialect,no,3,bangla-e5-small (prefix),1
+D361,val,standard,all,63,bangla-e5-small (prefix),1
+D361,val,dialect,no,63,bangla-e5-small (prefix),1
+D363,fit,standard,all,51,bangla-e5-small (prefix),1
+D363,fit,dialect,yes,51,bangla-e5-small (prefix),1
+D365,val,standard,all,4,bangla-e5-small (prefix),1
+D365,val,dialect,no,4,bangla-e5-small (prefix),1
+D367,fit,standard,all,112,bangla-e5-small (prefix),1
+D367,fit,dialect,no,112,bangla-e5-small (prefix),1
+D368,fit,standard,all,54,bangla-e5-small (prefix),1
+D368,fit,dialect,no,54,bangla-e5-small (prefix),1
+D369,fit,standard,all,33,bangla-e5-small (prefix),1
+D369,fit,dialect,yes,33,bangla-e5-small (prefix),1
+D371,fit,standard,all,37,bangla-e5-small (prefix),2
+D371,fit,dialect,yes,37,bangla-e5-small (prefix),2
+D372,fit,standard,all,87,bangla-e5-small (prefix),1
+D372,fit,dialect,no,87,bangla-e5-small (prefix),1
+D375,val,standard,all,90,bangla-e5-small (prefix),1
+D375,val,dialect,yes,90,bangla-e5-small (prefix),1
+D376,val,standard,all,91,bangla-e5-small (prefix),2
+D376,val,dialect,no,91,bangla-e5-small (prefix),2
+D377,val,standard,all,127,bangla-e5-small (prefix),1
+D377,val,dialect,no,127,bangla-e5-small (prefix),1
+D379,val,standard,all,1,bangla-e5-small (prefix),1
+D379,val,dialect,no,1,bangla-e5-small (prefix),1
+D382,val,standard,all,108,bangla-e5-small (prefix),1
+D382,val,dialect,yes,108,bangla-e5-small (prefix),1
+D384,val,standard,all,82,bangla-e5-small (prefix),1
+D384,val,dialect,no,82,bangla-e5-small (prefix),1
+D385,fit,standard,all,92,bangla-e5-small (prefix),2
+D385,fit,dialect,no,92,bangla-e5-small (prefix),2
+D387,fit,standard,all,120,bangla-e5-small (prefix),1
+D387,fit,dialect,no,120,bangla-e5-small (prefix),1
+D388,val,standard,all,56,bangla-e5-small (prefix),1
+D388,val,dialect,yes,56,bangla-e5-small (prefix),1
+D390,fit,standard,all,100,bangla-e5-small (prefix),1
+D390,fit,dialect,no,100,bangla-e5-small (prefix),1
+D392,fit,standard,all,44,bangla-e5-small (prefix),1
+D392,fit,dialect,no,44,bangla-e5-small (prefix),1
+D394,val,standard,all,30,bangla-e5-small (prefix),1
+D394,val,dialect,no,30,bangla-e5-small (prefix),1
+D396,val,standard,all,25,bangla-e5-small (prefix),1
+D396,val,dialect,no,25,bangla-e5-small (prefix),1
+D399,fit,standard,all,111,bangla-e5-small (prefix),1
+D399,fit,dialect,yes,111,bangla-e5-small (prefix),1
+D001,val,standard,all,4,bangla-e5-small (no prefix),1
+D001,val,dialect,yes,4,bangla-e5-small (no prefix),1
+D002,fit,standard,all,1,bangla-e5-small (no prefix),1
+D002,fit,dialect,yes,1,bangla-e5-small (no prefix),1
+D003,fit,standard,all,10,bangla-e5-small (no prefix),1
+D003,fit,dialect,yes,10,bangla-e5-small (no prefix),1
+D004,fit,standard,all,6,bangla-e5-small (no prefix),1
+D004,fit,dialect,yes,6,bangla-e5-small (no prefix),1
+D005,fit,standard,all,13,bangla-e5-small (no prefix),1
+D005,fit,dialect,yes,13,bangla-e5-small (no prefix),1
+D006,fit,standard,all,2,bangla-e5-small (no prefix),1
+D006,fit,dialect,yes,2,bangla-e5-small (no prefix),1
+D007,fit,standard,all,5,bangla-e5-small (no prefix),1
+D007,fit,dialect,yes,5,bangla-e5-small (no prefix),1
+D008,fit,standard,all,51,bangla-e5-small (no prefix),1
+D008,fit,dialect,yes,51,bangla-e5-small (no prefix),1
+D009,val,standard,all,48,bangla-e5-small (no prefix),1
+D009,val,dialect,yes,48,bangla-e5-small (no prefix),1
+D010,val,standard,all,62,bangla-e5-small (no prefix),1
+D010,val,dialect,yes,62,bangla-e5-small (no prefix),1
+D011,val,standard,all,58,bangla-e5-small (no prefix),1
+D011,val,dialect,yes,58,bangla-e5-small (no prefix),1
+D012,val,standard,all,45,bangla-e5-small (no prefix),1
+D012,val,dialect,yes,45,bangla-e5-small (no prefix),1
+D013,fit,standard,all,49,bangla-e5-small (no prefix),1
+D013,fit,dialect,yes,49,bangla-e5-small (no prefix),1
+D014,fit,standard,all,80,bangla-e5-small (no prefix),1
+D014,fit,dialect,yes,80,bangla-e5-small (no prefix),1
+D015,fit,standard,all,82,bangla-e5-small (no prefix),1
+D015,fit,dialect,yes,82,bangla-e5-small (no prefix),2
+D016,val,standard,all,88,bangla-e5-small (no prefix),1
+D016,val,dialect,yes,88,bangla-e5-small (no prefix),1
+D017,fit,standard,all,76,bangla-e5-small (no prefix),1
+D017,fit,dialect,yes,76,bangla-e5-small (no prefix),1
+D018,fit,standard,all,90,bangla-e5-small (no prefix),1
+D018,fit,dialect,yes,90,bangla-e5-small (no prefix),1
+D019,fit,standard,all,125,bangla-e5-small (no prefix),1
+D019,fit,dialect,yes,125,bangla-e5-small (no prefix),1
+D020,val,standard,all,107,bangla-e5-small (no prefix),1
+D020,val,dialect,yes,107,bangla-e5-small (no prefix),1
+D021,fit,standard,all,111,bangla-e5-small (no prefix),1
+D021,fit,dialect,yes,111,bangla-e5-small (no prefix),1
+D022,fit,standard,all,128,bangla-e5-small (no prefix),1
+D022,fit,dialect,yes,128,bangla-e5-small (no prefix),1
+D023,val,standard,all,100,bangla-e5-small (no prefix),1
+D023,val,dialect,yes,100,bangla-e5-small (no prefix),1
+D024,val,standard,all,127,bangla-e5-small (no prefix),1
+D024,val,dialect,yes,127,bangla-e5-small (no prefix),1
+D055,fit,standard,all,25,bangla-e5-small (no prefix),1
+D055,fit,dialect,yes,25,bangla-e5-small (no prefix),1
+D056,fit,standard,all,23,bangla-e5-small (no prefix),1
+D056,fit,dialect,yes,23,bangla-e5-small (no prefix),1
+D057,val,standard,all,24,bangla-e5-small (no prefix),1
+D057,val,dialect,yes,24,bangla-e5-small (no prefix),1
+D058,fit,standard,all,37,bangla-e5-small (no prefix),1
+D058,fit,dialect,yes,37,bangla-e5-small (no prefix),1
+D059,fit,standard,all,26,bangla-e5-small (no prefix),2
+D059,fit,dialect,yes,26,bangla-e5-small (no prefix),2
+D060,fit,standard,all,36,bangla-e5-small (no prefix),1
+D060,fit,dialect,yes,36,bangla-e5-small (no prefix),1
+D063,fit,standard,all,25,bangla-e5-small (no prefix),1
+D063,fit,dialect,yes,25,bangla-e5-small (no prefix),1
+D064,val,standard,all,11,bangla-e5-small (no prefix),1
+D064,val,dialect,yes,11,bangla-e5-small (no prefix),1
+D065,fit,standard,all,80,bangla-e5-small (no prefix),2
+D065,fit,dialect,yes,80,bangla-e5-small (no prefix),2
+D066,fit,standard,all,91,bangla-e5-small (no prefix),1
+D066,fit,dialect,no,91,bangla-e5-small (no prefix),1
+D067,fit,standard,all,108,bangla-e5-small (no prefix),1
+D067,fit,dialect,yes,108,bangla-e5-small (no prefix),1
+D068,val,standard,all,56,bangla-e5-small (no prefix),1
+D068,val,dialect,no,56,bangla-e5-small (no prefix),1
+D069,fit,standard,all,27,bangla-e5-small (no prefix),5
+D069,fit,dialect,yes,27,bangla-e5-small (no prefix),21
+D072,fit,standard,all,47,bangla-e5-small (no prefix),1
+D072,fit,dialect,no,47,bangla-e5-small (no prefix),1
+D074,fit,standard,all,81,bangla-e5-small (no prefix),1
+D074,fit,dialect,yes,81,bangla-e5-small (no prefix),1
+D078,fit,standard,all,37,bangla-e5-small (no prefix),1
+D078,fit,dialect,no,37,bangla-e5-small (no prefix),1
+D079,fit,standard,all,85,bangla-e5-small (no prefix),1
+D079,fit,dialect,yes,85,bangla-e5-small (no prefix),1
+D080,fit,standard,all,123,bangla-e5-small (no prefix),1
+D080,fit,dialect,no,123,bangla-e5-small (no prefix),1
+D082,fit,standard,all,48,bangla-e5-small (no prefix),1
+D082,fit,dialect,no,48,bangla-e5-small (no prefix),1
+D085,fit,standard,all,36,bangla-e5-small (no prefix),2
+D085,fit,dialect,yes,36,bangla-e5-small (no prefix),2
+D088,val,standard,all,35,bangla-e5-small (no prefix),1
+D088,val,dialect,yes,35,bangla-e5-small (no prefix),1
+D090,fit,standard,all,119,bangla-e5-small (no prefix),1
+D090,fit,dialect,no,119,bangla-e5-small (no prefix),1
+D093,fit,standard,all,52,bangla-e5-small (no prefix),1
+D093,fit,dialect,no,52,bangla-e5-small (no prefix),1
+D094,val,standard,all,84,bangla-e5-small (no prefix),1
+D094,val,dialect,yes,84,bangla-e5-small (no prefix),1
+D098,fit,standard,all,76,bangla-e5-small (no prefix),1
+D098,fit,dialect,yes,76,bangla-e5-small (no prefix),1
+D100,val,standard,all,32,bangla-e5-small (no prefix),2
+D100,val,dialect,yes,32,bangla-e5-small (no prefix),3
+D103,val,standard,all,2,bangla-e5-small (no prefix),1
+D103,val,dialect,yes,2,bangla-e5-small (no prefix),1
+D104,fit,standard,all,46,bangla-e5-small (no prefix),1
+D104,fit,dialect,no,46,bangla-e5-small (no prefix),1
+D105,fit,standard,all,54,bangla-e5-small (no prefix),1
+D105,fit,dialect,yes,54,bangla-e5-small (no prefix),1
+D107,val,standard,all,26,bangla-e5-small (no prefix),1
+D107,val,dialect,yes,26,bangla-e5-small (no prefix),1
+D109,fit,standard,all,114,bangla-e5-small (no prefix),1
+D109,fit,dialect,yes,114,bangla-e5-small (no prefix),1
+D110,fit,standard,all,41,bangla-e5-small (no prefix),1
+D110,fit,dialect,no,41,bangla-e5-small (no prefix),1
+D111,fit,standard,all,45,bangla-e5-small (no prefix),1
+D111,fit,dialect,no,45,bangla-e5-small (no prefix),1
+D112,fit,standard,all,74,bangla-e5-small (no prefix),1
+D112,fit,dialect,no,74,bangla-e5-small (no prefix),1
+D113,fit,standard,all,12,bangla-e5-small (no prefix),3
+D113,fit,dialect,no,12,bangla-e5-small (no prefix),3
+D115,val,standard,all,117,bangla-e5-small (no prefix),1
+D115,val,dialect,yes,117,bangla-e5-small (no prefix),1
+D116,fit,standard,all,61,bangla-e5-small (no prefix),1
+D116,fit,dialect,no,61,bangla-e5-small (no prefix),1
+D117,fit,standard,all,92,bangla-e5-small (no prefix),1
+D117,fit,dialect,yes,92,bangla-e5-small (no prefix),1
+D120,fit,standard,all,42,bangla-e5-small (no prefix),1
+D120,fit,dialect,yes,42,bangla-e5-small (no prefix),1
+D122,val,standard,all,81,bangla-e5-small (no prefix),1
+D122,val,dialect,no,81,bangla-e5-small (no prefix),1
+D125,fit,standard,all,39,bangla-e5-small (no prefix),1
+D125,fit,dialect,no,39,bangla-e5-small (no prefix),1
+D126,fit,standard,all,29,bangla-e5-small (no prefix),2
+D126,fit,dialect,yes,29,bangla-e5-small (no prefix),3
+D128,val,standard,all,30,bangla-e5-small (no prefix),5
+D128,val,dialect,yes,30,bangla-e5-small (no prefix),5
+D131,val,standard,all,25,bangla-e5-small (no prefix),1
+D131,val,dialect,yes,25,bangla-e5-small (no prefix),1
+D132,fit,standard,all,80,bangla-e5-small (no prefix),1
+D132,fit,dialect,yes,80,bangla-e5-small (no prefix),1
+D134,val,standard,all,84,bangla-e5-small (no prefix),1
+D134,val,dialect,no,84,bangla-e5-small (no prefix),1
+D135,fit,standard,all,3,bangla-e5-small (no prefix),1
+D135,fit,dialect,yes,3,bangla-e5-small (no prefix),1
+D136,fit,standard,all,27,bangla-e5-small (no prefix),2
+D136,fit,dialect,no,27,bangla-e5-small (no prefix),2
+D137,fit,standard,all,82,bangla-e5-small (no prefix),1
+D137,fit,dialect,yes,82,bangla-e5-small (no prefix),1
+D138,fit,standard,all,28,bangla-e5-small (no prefix),1
+D138,fit,dialect,yes,28,bangla-e5-small (no prefix),2
+D139,fit,standard,all,36,bangla-e5-small (no prefix),8
+D139,fit,dialect,yes,36,bangla-e5-small (no prefix),8
+D140,fit,standard,all,121,bangla-e5-small (no prefix),1
+D140,fit,dialect,no,121,bangla-e5-small (no prefix),1
+D141,fit,standard,all,46,bangla-e5-small (no prefix),1
+D141,fit,dialect,no,46,bangla-e5-small (no prefix),1
+D145,fit,standard,all,8,bangla-e5-small (no prefix),1
+D145,fit,dialect,yes,8,bangla-e5-small (no prefix),1
+D150,fit,standard,all,93,bangla-e5-small (no prefix),1
+D150,fit,dialect,no,93,bangla-e5-small (no prefix),1
+D151,fit,standard,all,23,bangla-e5-small (no prefix),1
+D151,fit,dialect,yes,23,bangla-e5-small (no prefix),1
+D152,val,standard,all,34,bangla-e5-small (no prefix),1
+D152,val,dialect,yes,34,bangla-e5-small (no prefix),1
+D156,fit,standard,all,85,bangla-e5-small (no prefix),5
+D156,fit,dialect,yes,85,bangla-e5-small (no prefix),5
+D157,val,standard,all,107,bangla-e5-small (no prefix),1
+D157,val,dialect,no,107,bangla-e5-small (no prefix),1
+D158,val,standard,all,78,bangla-e5-small (no prefix),1
+D158,val,dialect,no,78,bangla-e5-small (no prefix),1
+D164,val,standard,all,53,bangla-e5-small (no prefix),6
+D164,val,dialect,no,53,bangla-e5-small (no prefix),6
+D165,fit,standard,all,39,bangla-e5-small (no prefix),1
+D165,fit,dialect,yes,39,bangla-e5-small (no prefix),1
+D167,val,standard,all,129,bangla-e5-small (no prefix),1
+D167,val,dialect,yes,129,bangla-e5-small (no prefix),1
+D168,fit,standard,all,125,bangla-e5-small (no prefix),1
+D168,fit,dialect,no,125,bangla-e5-small (no prefix),1
+D169,fit,standard,all,57,bangla-e5-small (no prefix),1
+D169,fit,dialect,yes,57,bangla-e5-small (no prefix),1
+D172,fit,standard,all,24,bangla-e5-small (no prefix),1
+D172,fit,dialect,yes,24,bangla-e5-small (no prefix),1
+D173,fit,standard,all,103,bangla-e5-small (no prefix),2
+D173,fit,dialect,yes,103,bangla-e5-small (no prefix),2
+D175,fit,standard,all,58,bangla-e5-small (no prefix),1
+D175,fit,dialect,no,58,bangla-e5-small (no prefix),1
+D177,fit,standard,all,89,bangla-e5-small (no prefix),1
+D177,fit,dialect,yes,89,bangla-e5-small (no prefix),1
+D180,fit,standard,all,14,bangla-e5-small (no prefix),5
+D180,fit,dialect,yes,14,bangla-e5-small (no prefix),4
+D188,val,standard,all,41,bangla-e5-small (no prefix),3
+D188,val,dialect,no,41,bangla-e5-small (no prefix),3
+D190,val,standard,all,7,bangla-e5-small (no prefix),1
+D190,val,dialect,yes,7,bangla-e5-small (no prefix),1
+D195,fit,standard,all,0,bangla-e5-small (no prefix),1
+D195,fit,dialect,no,0,bangla-e5-small (no prefix),1
+D198,fit,standard,all,113,bangla-e5-small (no prefix),1
+D198,fit,dialect,no,113,bangla-e5-small (no prefix),1
+D199,val,standard,all,5,bangla-e5-small (no prefix),1
+D199,val,dialect,no,5,bangla-e5-small (no prefix),1
+D200,val,standard,all,100,bangla-e5-small (no prefix),1
+D200,val,dialect,no,100,bangla-e5-small (no prefix),1
+D201,val,standard,all,33,bangla-e5-small (no prefix),1
+D201,val,dialect,yes,33,bangla-e5-small (no prefix),1
+D203,fit,standard,all,31,bangla-e5-small (no prefix),1
+D203,fit,dialect,yes,31,bangla-e5-small (no prefix),1
+D204,fit,standard,all,79,bangla-e5-small (no prefix),1
+D204,fit,dialect,yes,79,bangla-e5-small (no prefix),1
+D205,fit,standard,all,49,bangla-e5-small (no prefix),1
+D205,fit,dialect,no,49,bangla-e5-small (no prefix),1
+D206,fit,standard,all,75,bangla-e5-small (no prefix),1
+D206,fit,dialect,no,75,bangla-e5-small (no prefix),1
+D207,fit,standard,all,29,bangla-e5-small (no prefix),7
+D207,fit,dialect,no,29,bangla-e5-small (no prefix),7
+D209,fit,standard,all,87,bangla-e5-small (no prefix),1
+D209,fit,dialect,yes,87,bangla-e5-small (no prefix),1
+D210,val,standard,all,23,bangla-e5-small (no prefix),1
+D210,val,dialect,yes,23,bangla-e5-small (no prefix),1
+D212,fit,standard,all,2,bangla-e5-small (no prefix),1
+D212,fit,dialect,no,2,bangla-e5-small (no prefix),1
+D213,val,standard,all,43,bangla-e5-small (no prefix),1
+D213,val,dialect,no,43,bangla-e5-small (no prefix),1
+D214,fit,standard,all,102,bangla-e5-small (no prefix),1
+D214,fit,dialect,no,102,bangla-e5-small (no prefix),1
+D215,val,standard,all,28,bangla-e5-small (no prefix),2
+D215,val,dialect,yes,28,bangla-e5-small (no prefix),2
+D219,fit,standard,all,27,bangla-e5-small (no prefix),12
+D219,fit,dialect,yes,27,bangla-e5-small (no prefix),37
+D220,fit,standard,all,7,bangla-e5-small (no prefix),1
+D220,fit,dialect,no,7,bangla-e5-small (no prefix),1
+D221,fit,standard,all,52,bangla-e5-small (no prefix),1
+D221,fit,dialect,no,52,bangla-e5-small (no prefix),1
+D223,fit,standard,all,12,bangla-e5-small (no prefix),1
+D223,fit,dialect,no,12,bangla-e5-small (no prefix),1
+D224,fit,standard,all,32,bangla-e5-small (no prefix),1
+D224,fit,dialect,yes,32,bangla-e5-small (no prefix),1
+D226,fit,standard,all,10,bangla-e5-small (no prefix),2
+D226,fit,dialect,no,10,bangla-e5-small (no prefix),2
+D227,fit,standard,all,116,bangla-e5-small (no prefix),1
+D227,fit,dialect,no,116,bangla-e5-small (no prefix),1
+D230,fit,standard,all,113,bangla-e5-small (no prefix),1
+D230,fit,dialect,no,113,bangla-e5-small (no prefix),1
+D236,fit,standard,all,86,bangla-e5-small (no prefix),3
+D236,fit,dialect,no,86,bangla-e5-small (no prefix),3
+D239,fit,standard,all,88,bangla-e5-small (no prefix),1
+D239,fit,dialect,no,88,bangla-e5-small (no prefix),1
+D241,fit,standard,all,53,bangla-e5-small (no prefix),1
+D241,fit,dialect,no,53,bangla-e5-small (no prefix),1
+D242,val,standard,all,89,bangla-e5-small (no prefix),1
+D242,val,dialect,no,89,bangla-e5-small (no prefix),1
+D245,fit,standard,all,34,bangla-e5-small (no prefix),6
+D245,fit,dialect,yes,34,bangla-e5-small (no prefix),6
+D246,fit,standard,all,77,bangla-e5-small (no prefix),1
+D246,fit,dialect,yes,77,bangla-e5-small (no prefix),1
+D250,fit,standard,all,31,bangla-e5-small (no prefix),1
+D250,fit,dialect,no,31,bangla-e5-small (no prefix),1
+D251,fit,standard,all,47,bangla-e5-small (no prefix),1
+D251,fit,dialect,no,47,bangla-e5-small (no prefix),1
+D252,val,standard,all,40,bangla-e5-small (no prefix),1
+D252,val,dialect,no,40,bangla-e5-small (no prefix),1
+D255,fit,standard,all,104,bangla-e5-small (no prefix),1
+D255,fit,dialect,no,104,bangla-e5-small (no prefix),1
+D258,fit,standard,all,119,bangla-e5-small (no prefix),1
+D258,fit,dialect,no,119,bangla-e5-small (no prefix),1
+D259,fit,standard,all,78,bangla-e5-small (no prefix),1
+D259,fit,dialect,yes,78,bangla-e5-small (no prefix),1
+D260,fit,standard,all,13,bangla-e5-small (no prefix),1
+D260,fit,dialect,no,13,bangla-e5-small (no prefix),1
+D261,fit,standard,all,123,bangla-e5-small (no prefix),1
+D261,fit,dialect,no,123,bangla-e5-small (no prefix),1
+D263,fit,standard,all,83,bangla-e5-small (no prefix),1
+D263,fit,dialect,yes,83,bangla-e5-small (no prefix),1
+D264,val,standard,all,128,bangla-e5-small (no prefix),1
+D264,val,dialect,yes,128,bangla-e5-small (no prefix),1
+D265,fit,standard,all,76,bangla-e5-small (no prefix),1
+D265,fit,dialect,yes,76,bangla-e5-small (no prefix),1
+D266,fit,standard,all,104,bangla-e5-small (no prefix),1
+D266,fit,dialect,no,104,bangla-e5-small (no prefix),1
+D268,fit,standard,all,50,bangla-e5-small (no prefix),1
+D268,fit,dialect,no,50,bangla-e5-small (no prefix),1
+D270,fit,standard,all,74,bangla-e5-small (no prefix),1
+D270,fit,dialect,no,74,bangla-e5-small (no prefix),1
+D271,val,standard,all,11,bangla-e5-small (no prefix),1
+D271,val,dialect,yes,11,bangla-e5-small (no prefix),1
+D273,fit,standard,all,106,bangla-e5-small (no prefix),1
+D273,fit,dialect,no,106,bangla-e5-small (no prefix),1
+D276,fit,standard,all,60,bangla-e5-small (no prefix),1
+D276,fit,dialect,no,60,bangla-e5-small (no prefix),1
+D277,val,standard,all,88,bangla-e5-small (no prefix),1
+D277,val,dialect,yes,88,bangla-e5-small (no prefix),1
+D280,fit,standard,all,122,bangla-e5-small (no prefix),1
+D280,fit,dialect,no,122,bangla-e5-small (no prefix),1
+D281,fit,standard,all,6,bangla-e5-small (no prefix),4
+D281,fit,dialect,no,6,bangla-e5-small (no prefix),4
+D284,fit,standard,all,14,bangla-e5-small (no prefix),1
+D284,fit,dialect,no,14,bangla-e5-small (no prefix),1
+D285,val,standard,all,0,bangla-e5-small (no prefix),3
+D285,val,dialect,yes,0,bangla-e5-small (no prefix),4
+D289,fit,standard,all,9,bangla-e5-small (no prefix),1
+D289,fit,dialect,yes,9,bangla-e5-small (no prefix),1
+D292,fit,standard,all,40,bangla-e5-small (no prefix),1
+D292,fit,dialect,yes,40,bangla-e5-small (no prefix),1
+D296,fit,standard,all,110,bangla-e5-small (no prefix),1
+D296,fit,dialect,no,110,bangla-e5-small (no prefix),1
+D297,fit,standard,all,23,bangla-e5-small (no prefix),1
+D297,fit,dialect,yes,23,bangla-e5-small (no prefix),1
+D299,fit,standard,all,55,bangla-e5-small (no prefix),1
+D299,fit,dialect,no,55,bangla-e5-small (no prefix),1
+D301,val,standard,all,118,bangla-e5-small (no prefix),2
+D301,val,dialect,no,118,bangla-e5-small (no prefix),2
+D303,val,standard,all,90,bangla-e5-small (no prefix),1
+D303,val,dialect,yes,90,bangla-e5-small (no prefix),1
+D305,fit,standard,all,35,bangla-e5-small (no prefix),1
+D305,fit,dialect,yes,35,bangla-e5-small (no prefix),1
+D310,fit,standard,all,105,bangla-e5-small (no prefix),1
+D310,fit,dialect,no,105,bangla-e5-small (no prefix),1
+D312,fit,standard,all,101,bangla-e5-small (no prefix),1
+D312,fit,dialect,no,101,bangla-e5-small (no prefix),1
+D313,fit,standard,all,23,bangla-e5-small (no prefix),1
+D313,fit,dialect,yes,23,bangla-e5-small (no prefix),1
+D314,val,standard,all,83,bangla-e5-small (no prefix),1
+D314,val,dialect,yes,83,bangla-e5-small (no prefix),1
+D317,fit,standard,all,55,bangla-e5-small (no prefix),1
+D317,fit,dialect,yes,55,bangla-e5-small (no prefix),1
+D318,val,standard,all,62,bangla-e5-small (no prefix),1
+D318,val,dialect,yes,62,bangla-e5-small (no prefix),1
+D321,fit,standard,all,24,bangla-e5-small (no prefix),1
+D321,fit,dialect,yes,24,bangla-e5-small (no prefix),1
+D326,val,standard,all,77,bangla-e5-small (no prefix),1
+D326,val,dialect,no,77,bangla-e5-small (no prefix),1
+D327,fit,standard,all,58,bangla-e5-small (no prefix),1
+D327,fit,dialect,no,58,bangla-e5-small (no prefix),1
+D329,fit,standard,all,43,bangla-e5-small (no prefix),1
+D329,fit,dialect,no,43,bangla-e5-small (no prefix),1
+D330,val,standard,all,124,bangla-e5-small (no prefix),1
+D330,val,dialect,yes,124,bangla-e5-small (no prefix),1
+D334,fit,standard,all,86,bangla-e5-small (no prefix),1
+D334,fit,dialect,no,86,bangla-e5-small (no prefix),1
+D335,fit,standard,all,51,bangla-e5-small (no prefix),1
+D335,fit,dialect,yes,51,bangla-e5-small (no prefix),2
+D336,fit,standard,all,26,bangla-e5-small (no prefix),11
+D336,fit,dialect,yes,26,bangla-e5-small (no prefix),13
+D337,fit,standard,all,49,bangla-e5-small (no prefix),1
+D337,fit,dialect,no,49,bangla-e5-small (no prefix),1
+D345,fit,standard,all,75,bangla-e5-small (no prefix),1
+D345,fit,dialect,no,75,bangla-e5-small (no prefix),1
+D346,val,standard,all,59,bangla-e5-small (no prefix),1
+D346,val,dialect,no,59,bangla-e5-small (no prefix),1
+D348,fit,standard,all,115,bangla-e5-small (no prefix),1
+D348,fit,dialect,no,115,bangla-e5-small (no prefix),1
+D350,fit,standard,all,126,bangla-e5-small (no prefix),1
+D350,fit,dialect,yes,126,bangla-e5-small (no prefix),1
+D353,val,standard,all,109,bangla-e5-small (no prefix),1
+D353,val,dialect,no,109,bangla-e5-small (no prefix),1
+D355,fit,standard,all,10,bangla-e5-small (no prefix),2
+D355,fit,dialect,yes,10,bangla-e5-small (no prefix),2
+D360,fit,standard,all,3,bangla-e5-small (no prefix),1
+D360,fit,dialect,no,3,bangla-e5-small (no prefix),1
+D361,val,standard,all,63,bangla-e5-small (no prefix),1
+D361,val,dialect,no,63,bangla-e5-small (no prefix),1
+D363,fit,standard,all,51,bangla-e5-small (no prefix),1
+D363,fit,dialect,yes,51,bangla-e5-small (no prefix),1
+D365,val,standard,all,4,bangla-e5-small (no prefix),1
+D365,val,dialect,no,4,bangla-e5-small (no prefix),1
+D367,fit,standard,all,112,bangla-e5-small (no prefix),1
+D367,fit,dialect,no,112,bangla-e5-small (no prefix),1
+D368,fit,standard,all,54,bangla-e5-small (no prefix),1
+D368,fit,dialect,no,54,bangla-e5-small (no prefix),1
+D369,fit,standard,all,33,bangla-e5-small (no prefix),1
+D369,fit,dialect,yes,33,bangla-e5-small (no prefix),1
+D371,fit,standard,all,37,bangla-e5-small (no prefix),2
+D371,fit,dialect,yes,37,bangla-e5-small (no prefix),2
+D372,fit,standard,all,87,bangla-e5-small (no prefix),1
+D372,fit,dialect,no,87,bangla-e5-small (no prefix),1
+D375,val,standard,all,90,bangla-e5-small (no prefix),1
+D375,val,dialect,yes,90,bangla-e5-small (no prefix),1
+D376,val,standard,all,91,bangla-e5-small (no prefix),3
+D376,val,dialect,no,91,bangla-e5-small (no prefix),3
+D377,val,standard,all,127,bangla-e5-small (no prefix),1
+D377,val,dialect,no,127,bangla-e5-small (no prefix),1
+D379,val,standard,all,1,bangla-e5-small (no prefix),1
+D379,val,dialect,no,1,bangla-e5-small (no prefix),1
+D382,val,standard,all,108,bangla-e5-small (no prefix),1
+D382,val,dialect,yes,108,bangla-e5-small (no prefix),1
+D384,val,standard,all,82,bangla-e5-small (no prefix),1
+D384,val,dialect,no,82,bangla-e5-small (no prefix),1
+D385,fit,standard,all,92,bangla-e5-small (no prefix),2
+D385,fit,dialect,no,92,bangla-e5-small (no prefix),2
+D387,fit,standard,all,120,bangla-e5-small (no prefix),1
+D387,fit,dialect,no,120,bangla-e5-small (no prefix),1
+D388,val,standard,all,56,bangla-e5-small (no prefix),1
+D388,val,dialect,yes,56,bangla-e5-small (no prefix),1
+D390,fit,standard,all,100,bangla-e5-small (no prefix),1
+D390,fit,dialect,no,100,bangla-e5-small (no prefix),1
+D392,fit,standard,all,44,bangla-e5-small (no prefix),1
+D392,fit,dialect,no,44,bangla-e5-small (no prefix),1
+D394,val,standard,all,30,bangla-e5-small (no prefix),1
+D394,val,dialect,no,30,bangla-e5-small (no prefix),1
+D396,val,standard,all,25,bangla-e5-small (no prefix),2
+D396,val,dialect,no,25,bangla-e5-small (no prefix),2
+D399,fit,standard,all,111,bangla-e5-small (no prefix),1
+D399,fit,dialect,yes,111,bangla-e5-small (no prefix),1
