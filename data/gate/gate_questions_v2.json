@@ -1,0 +1,51 @@
+{
+  "_note": "State passed to the decision model: {\"user_query\": <Bangla query>, \"retrieved_passage\": <passage text or empty>, \"available_tools\": {tool_name: one-line description}}. Instructions and option descriptions stay in English; only the query and passage are Bangla. v2: only the emergency question was reworded (first-person, happening now, includes animal bites); the other four questions are unchanged from v1.",
+  "questions": {
+    "action": {
+      "type": "choice",
+      "instructions": "A rural user asked a question. Based on the user query and the retrieved passage, what should the assistant do next?",
+      "criteria": {
+        "answer_from_passage": "The passage contains the information needed; answer from it.",
+        "call_tool": "The question needs live or personal data (a place, price, weather or application status) that only a tool can provide, and the query already contains what the tool needs.",
+        "ask_clarification": "The query is missing key information (such as the place, crop, date, service or application id), so the assistant must ask the user first.",
+        "refer_to_clinic": "The user describes a medical emergency or danger signs; tell them to go to a hospital or clinic immediately.",
+        "cannot_answer": "The passage does not contain the answer and no tool can provide it; say that the assistant does not know."
+      }
+    },
+    "supported": {
+      "type": "choice",
+      "instructions": "Does the retrieved passage contain the specific information needed to answer the user's question?",
+      "criteria": {
+        "supported": "Yes, the passage directly answers the question.",
+        "not_supported": "No, the passage is about a related topic but does not answer the question."
+      }
+    },
+    "specific": {
+      "type": "choice",
+      "instructions": "Is the user's query specific enough to act on without asking anything more?",
+      "criteria": {
+        "specific": "Yes, it names what is needed (place, crop, date, service or id where relevant).",
+        "underspecified": "No, key details are missing, so the assistant would have to guess."
+      }
+    },
+    "emergency": {
+      "type": "choice",
+      "instructions": "Is the user describing an urgent medical situation that is happening right now to themselves or to someone near them (for example a snake or animal bite, poisoning, a burn, drowning, heavy bleeding, a seizure, unconsciousness, chest pain, or trouble breathing), as opposed to asking a general or informational question?",
+      "criteria": {
+        "emergency": "Yes, something urgent is happening now and the person needs a hospital quickly, even if it sounds small (for example an animal bite or a small wound after a bite).",
+        "not_emergency": "No, the user is asking a general or informational question, or the matter is routine."
+      }
+    },
+    "tool": {
+      "type": "choice",
+      "instructions": "Which tool, if any, is needed to answer the user's query?",
+      "criteria": {
+        "find_nearest_clinic": "Find the nearest clinic or hospital in a given upazila.",
+        "get_crop_market_price": "Look up the market price of a crop in a given district.",
+        "get_weather_forecast": "Get the weather forecast for a place and date.",
+        "check_service_status": "Check the status of a government service application using its id.",
+        "none": "No tool is needed."
+      }
+    }
+  }
+}
