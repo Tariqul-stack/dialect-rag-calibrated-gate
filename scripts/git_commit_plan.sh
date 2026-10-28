@@ -7,8 +7,7 @@ git rev-parse --is-inside-work-tree >/dev/null 2>&1 || git init -b main
 git config user.name >/dev/null || { echo "Set git user.name first"; exit 1; }
 git config user.email >/dev/null || { echo "Set git user.email first"; exit 1; }
 
-TRAILER=$'\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01Q4tgq3PHcer1GQVjk5r4rr'
-c() { local msg="$1"; shift; git add -- "$@"; git commit -q -m "$msg$TRAILER"; echo "committed: $msg"; }
+c() { local msg="$1"; shift; git add -- "$@"; git commit -q -m "$msg"; echo "committed: $msg"; }
 
 c "chore: add .gitignore, requirements and package skeleton" .gitignore requirements.txt src/aisis/__init__.py src/aisis/paths.py src/aisis/data_build/__init__.py src/aisis/gate/__init__.py src/aisis/retrieval/__init__.py
 c "data: add 200 base queries and builder script" data/queries src/aisis/data_build/build_queries.py
