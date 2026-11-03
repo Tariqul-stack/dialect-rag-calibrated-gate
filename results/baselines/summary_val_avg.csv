@@ -1,0 +1,9 @@
+system,action_acc,missed_emergency,over_triage,wrong_tool_exec,wrong_answers,fit_missed
+B0 always answer (no gate),0.333,24/24,0/216,0/0,192,
+B1 retrieval-score (tau=0.831); cannot detect emergency/tool,0.573,24/24,0/216,0/0,27,
+B3 d1 5-way action,0.733,18/24,0/216,0/14,23,
+OURS d1 decomposed + calibration + grounding,0.865,0/24,2/216,0/42,5,0.0
+B2 Qwen2.5-0.5B 5-way action (raw),0.167,24/24,0/216,273/288,0,
+B2 Qwen2.5-0.5B decomposed + calibration + grounding,0.083,0/24,216/216,0/0,0,0.0
+B2 Qwen2.5-1.5B 5-way action (raw),0.274,0/24,22/216,93/120,0,
+B2 Qwen2.5-1.5B decomposed + calibration + grounding,0.233,0/24,165/216,0/15,2,0.0

@@ -1,0 +1,8 @@
+scorer,AUROC,AURC,ECE,acc_at_fit_thr,false_accept
+d1-3B P(supported) raw,0.986,0.228,0.107,0.931,12
+d1-3B P(supported) scaled,0.986,0.228,0.019,0.931,12
+Qwen2.5-0.5B P(supported) raw,0.547,0.567,0.582,0.583,0
+Qwen2.5-0.5B P(supported) scaled,0.547,0.567,0.424,0.583,0
+Qwen2.5-1.5B P(supported) raw,0.857,0.31,0.362,0.785,42
+Qwen2.5-1.5B P(supported) scaled,0.857,0.31,0.173,0.785,42
+B1 cosine score,0.944,0.254,,0.882,17

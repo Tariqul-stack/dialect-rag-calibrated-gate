@@ -1,0 +1,4 @@
+scorer,emergency_AUROC,tool_choice_acc_on_tool_rows,says_emergency_for,fit_thresholds
+d1-3B,1.0,0.896,22/240 (gold 24),te=0.1 ts=0.7 tt=0.5
+Qwen2.5-0.5B,0.776,0.312,240/240 (gold 24),te=0.05 ts=0.05 tt=0.3
+Qwen2.5-1.5B,0.967,0.75,240/240 (gold 24),te=0.7 ts=0.7 tt=0.5
