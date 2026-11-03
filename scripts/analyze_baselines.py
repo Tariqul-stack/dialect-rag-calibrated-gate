@@ -109,9 +109,23 @@ for nm, score, pos, thr, ft in sup:
     det.append(dict(scorer=nm, AUROC=round(auroc(score, pos), 3), AURC=round(aurc(score, pos), 3), ECE=np.nan,
                     acc_at_fit_thr=round(float(((score >= thr) == pos).mean()), 3), false_accept=int(((score >= thr) & ~pos).sum())))
 
+# ---- per-question quality, threshold-free where possible (val) ----
+perq = []
+for nm, df, cfg in scorers:
+    v = df[df.split == "val"]
+    nw = v[v.version != "wrong_passage"]
+    pe = np.array([p["emergency"] for p in nw.P_emergency]); pos_e = (nw.gold_emergency == "emergency").to_numpy()
+    tr = v[v.gold_action == "call_tool"]
+    perq.append(dict(scorer=nm, emergency_AUROC=round(auroc(pe, pos_e), 3),
+                     tool_choice_acc_on_tool_rows=round(float((tr.pred_tool == tr.gold_tool).mean()), 3),
+                     says_emergency_for=f'{int((nw.pred_emergency == "emergency").sum())}/{len(nw)} (gold {int(pos_e.sum())})',
+                     fit_thresholds=f'te={cfg["te"]} ts={cfg["ts"]} tt={cfg["tt"]}'))
+
 R = pd.DataFrame(rows)
 pd.set_option("display.width", 250, "display.max_colwidth", 70)
 print(f"== VAL (n={len(val1)}): full decision ==\n", R.to_string(index=False))
 print("\n== VAL: how well each score separates 'passage supports the answer' (higher AUROC / lower AURC is better) ==\n", pd.DataFrame(det).to_string(index=False))
+print("\n== VAL: emergency / tool question quality per scorer (AUROC is threshold-free; says_emergency_for = predicted emergency, argmax) ==\n", pd.DataFrame(perq).to_string(index=False))
 R.to_csv(a.out, index=False)
+pd.DataFrame(perq).to_csv(str(a.out).replace(".csv", "_perquestion.csv"), index=False)
 pd.DataFrame(det).to_csv(str(a.out).replace(".csv", "_supported.csv"), index=False)
