@@ -1,0 +1,210 @@
+id,type,topic,gold_action,gold_tool,gold_args,gold_passage_id,version,native_status,query
+Q001,tool,abohawa,call_tool,get_weather_forecast,"{""location"": ""চট্টগ্রাম"", ""date"": ""আগামীকাল""}",,standard,,কাল চট্টগ্রামে বৃষ্টি হবে কি?
+Q001,tool,abohawa,call_tool,get_weather_forecast,"{""location"": ""চট্টগ্রাম"", ""date"": ""আগামীকাল""}",,barishal,native_corrected,কাইল চট্টগ্রামে দেয়োই হইবে নি?
+Q001,tool,abohawa,call_tool,get_weather_forecast,"{""location"": ""চট্টগ্রাম"", ""date"": ""আগামীকাল""}",,chittagong,native_written,হালিয়ে চট্টগ্রাম ঝর ফরিব?
+Q001,tool,abohawa,call_tool,get_weather_forecast,"{""location"": ""চট্টগ্রাম"", ""date"": ""আগামীকাল""}",,rajshahi,native_corrected,কাইলকা চট্টগ্রামে বৃষ্টি হবেক কি?
+Q001,tool,abohawa,call_tool,get_weather_forecast,"{""location"": ""চট্টগ্রাম"", ""date"": ""আগামীকাল""}",,rangpur,native_verified,কাইল চট্টগ্রামত বৃষ্টি হইবে নি?
+Q002,answerable,abohawa,answer_from_passage,none,,W-001,standard,,অতিরিক্ত গরমে কৃষকরা কীভাবে নিজেকে সুস্থ রাখবেন?
+Q002,answerable,abohawa,answer_from_passage,none,,W-001,barishal,native_corrected,এত গরমে কৃষকেরা ক্যাম্মে নিজেরে সুস্থ রাখবে?
+Q002,answerable,abohawa,answer_from_passage,none,,W-001,chittagong,native_written,এইল্লে গরমত ক্যান করি এল্লে ওক্কল নিজুরে গম রাখিবু?
+Q002,answerable,abohawa,answer_from_passage,none,,W-001,rajshahi,native_corrected,বেশি গরমে পাইঠরা কিভাবে কইরা নিজেকে সুস্থ রাখবে?
+Q002,answerable,abohawa,answer_from_passage,none,,W-001,rangpur,native_corrected,বেশি গরমত কামলা কেমন করি নিজেক সুস্থ রাইকপে ?
+Q003,answerable,shorkari,answer_from_passage,none,,G-012,standard,,জাতীয় পরিচয়পত্র হারিয়ে গেলে কী করতে হয়?
+Q003,answerable,shorkari,answer_from_passage,none,,G-012,barishal,native_verified,জাতীয় পরিচয়পত্র হারাইয়া গেলে কী করন লাগে?
+Q003,answerable,shorkari,answer_from_passage,none,,G-012,chittagong,native_written,ভোটার কার্ড আজি যেইলি কি গরন পরিবু?
+Q003,answerable,shorkari,answer_from_passage,none,,G-012,rajshahi,native_corrected,জাতীয় পরিচয়পত্র খানটা হারিয়া গেলে কী করতে হয়?
+Q003,answerable,shorkari,answer_from_passage,none,,G-012,rangpur,native_verified,জাতীয় পরিচয়পত্র হারাইয়া গেইলে কী করিবার নাগে?
+Q004,tool,shorkari,call_tool,check_service_status,"{""service"": ""জন্মনিবন্ধন"", ""id"": ""452189""}",,standard,,"আমার জন্মনিবন্ধন আবেদনের নম্বর ৪৫২১৮৯, এখন অবস্থা কী?"
+Q004,tool,shorkari,call_tool,check_service_status,"{""service"": ""জন্মনিবন্ধন"", ""id"": ""452189""}",,barishal,native_corrected,"মোর জন্মনিবন্ধন আবেদনের নম্বর ৪৫২১৮৯, এহন অবস্থা কী?"
+Q004,tool,shorkari,call_tool,check_service_status,"{""service"": ""জন্মনিবন্ধন"", ""id"": ""452189""}",,chittagong,native_written,"আর জন্মনিবন্ধন আবেদন নম্বর ওলদি ৪৫২১৮৯, ইয়েন হন অবস্থা আছে এহন?"
+Q004,tool,shorkari,call_tool,check_service_status,"{""service"": ""জন্মনিবন্ধন"", ""id"": ""452189""}",,rajshahi,native_corrected,"হামার জন্মনিবন্ধন আবেদনের নম্বর ৪৫২১৮৯, এখুন অবস্থা কী?"
+Q004,tool,shorkari,call_tool,check_service_status,"{""service"": ""জন্মনিবন্ধন"", ""id"": ""452189""}",,rangpur,native_corrected,"মোর জন্মনিবন্ধনত  আবেদনের নম্বর ৪৫২১৮৯, এলা অবস্থা কী?"
+Q005,unanswerable,abohawa,cannot_answer,none,,,standard,,আগামী মাসে আমাদের গ্রামে ঠিক কোন দিন বৃষ্টি হবে?
+Q005,unanswerable,abohawa,cannot_answer,none,,,barishal,native_verified,সামনের মাসে আমাগো গ্রামে ঠিক কোন দিন বৃষ্টি হইব?
+Q005,unanswerable,abohawa,cannot_answer,none,,,chittagong,native_written,সাম্মুর মাসুধ হন দিনুত আরার এন্ডে ঝড় পরিবু?
+Q005,unanswerable,abohawa,cannot_answer,none,,,rajshahi,native_corrected,সামনের মাসে হারঘে গ্রামে ঠিক কুন দিন বৃষ্টি হবে?
+Q005,unanswerable,abohawa,cannot_answer,none,,,rangpur,native_corrected,সামনের মাসত মোর গাঁওত ঠিক কোন বেলা বৃষ্টি হইবে?
+Q006,unanswerable,shorkari,cannot_answer,none,,,standard,,"আমার জমির পর্চা কেউ জাল করেছে, মামলা কীভাবে করব?"
+Q006,unanswerable,shorkari,cannot_answer,none,,,barishal,native_corrected,"মোর জায়গার পর্চা কেউ জাল করছে, মামলা ক্যামনে করমু?"
+Q006,unanswerable,shorkari,cannot_answer,none,,,chittagong,native_written,"আর জাংগার হনে জাল গইজ্জি, এহন ক্যান গরি মামলা গড়তাম?"
+Q006,unanswerable,shorkari,cannot_answer,none,,,rajshahi,native_corrected,"হামার জমির কাগজটা কেহু জাল করালিয়াছে ,মামলা ঠুকবো কিভাবে এখন?"
+Q006,unanswerable,shorkari,cannot_answer,none,,,rangpur,native_verified,"মোর জমির পর্চা কায়ো জাল করিচে, মামলা কেমন করি করিম?"
+Q007,tool,swasthyo,call_tool,find_nearest_clinic,"{""upazila"": ""নাটোর সদর"", ""service"": ""গর্ভকালীন সেবা""}",,standard,,নাটোর সদর উপজেলায় গর্ভবতী মায়ের চেকআপ কোথায় করানো যায়?
+Q007,tool,swasthyo,call_tool,find_nearest_clinic,"{""upazila"": ""নাটোর সদর"", ""service"": ""গর্ভকালীন সেবা""}",,barishal,native_corrected,নাটোর সদর উপজেলায় পোয়াতি মায়ের পরীক্ষা কোম্মে করান যায়?
+Q007,tool,swasthyo,call_tool,find_nearest_clinic,"{""upazila"": ""নাটোর সদর"", ""service"": ""গর্ভকালীন সেবা""}",,chittagong,native_written,"নাটোর উপজেলার শরত গর্ভবতী মা চেকআপ,হন্ডে গরন যেইবু?"
+Q007,tool,swasthyo,call_tool,find_nearest_clinic,"{""upazila"": ""নাটোর সদর"", ""service"": ""গর্ভকালীন সেবা""}",,rajshahi,native_corrected,নাটোর সদর উপজেলায় গর্ভবতী মায়ের চেকআপ কুনঠে করায়?
+Q007,tool,swasthyo,call_tool,find_nearest_clinic,"{""upazila"": ""নাটোর সদর"", ""service"": ""গর্ভকালীন সেবা""}",,rangpur,native_verified,নাটোর সদর উপজেলাত পোয়াতি মায়ের চেকআপ কোটে করা যায়?
+Q008,tool,abohawa,call_tool,get_weather_forecast,"{""location"": ""রংপুর"", ""date"": ""আজ""}",,standard,,আজ রংপুরে তাপমাত্রা কত থাকবে?
+Q008,tool,abohawa,call_tool,get_weather_forecast,"{""location"": ""রংপুর"", ""date"": ""আজ""}",,barishal,native_verified,আইজ রংপুরে তাপমাত্রা কত থাকব?
+Q008,tool,abohawa,call_tool,get_weather_forecast,"{""location"": ""রংপুর"", ""date"": ""আজ""}",,chittagong,native_written,আজিয়ে রংপুরুত তাপমাত্রা হত থাকিবু?
+Q008,tool,abohawa,call_tool,get_weather_forecast,"{""location"": ""রংপুর"", ""date"": ""আজ""}",,rajshahi,native_corrected,আজক্যা রাজশাহীর তাপমাত্রা কত থাকবে?
+Q008,tool,abohawa,call_tool,get_weather_forecast,"{""location"": ""রংপুর"", ""date"": ""আজ""}",,rangpur,native_corrected,আইজ রংপুরত তাপমাত্রা কত থাইকপে ?
+Q009,answerable,krishi,answer_from_passage,none,,K-004,standard,,সবজির বীজ ভালোভাবে কীভাবে সংরক্ষণ করতে হয়?
+Q009,answerable,krishi,answer_from_passage,none,,K-004,barishal,native_corrected,আনাজের অ্যাঁডি ভালো কইররা ক্যামনে রাহা লাগে?
+Q009,answerable,krishi,answer_from_passage,none,,K-004,chittagong,native_written,সবজির বীজ গম গরি ভালা গরি লন যেইবু?
+Q009,answerable,krishi,answer_from_passage,none,,K-004,rajshahi,native_corrected,সবজির বীছন গুলা  কিভাবে ভালো কইরা রাখতে পারবো?
+Q009,answerable,krishi,answer_from_passage,none,,K-004,rangpur,native_corrected,সবজির বীজ ভাল করি কেমন করি রাখবার নাগে?
+Q010,answerable,swasthyo,answer_from_passage,none,,H-002,standard,,ডায়রিয়া হলে খাবার স্যালাইন কীভাবে বানাতে হয়?
+Q010,answerable,swasthyo,answer_from_passage,none,,H-002,barishal,native_corrected,প্যাঁট খারাপ হইলে খাওনের স্যালাইন ক্যামনে বানান লাগে?
+Q010,answerable,swasthyo,answer_from_passage,none,,H-002,chittagong,native_written,পেহেনা ওইলি ক্যান গরি হানার স্যালাইন বানাইয়ুম?
+Q010,answerable,swasthyo,answer_from_passage,none,,H-002,rajshahi,native_verified,ডায়রিয়া হইলে খাবার স্যালাইন কেমন করে বানাতে হয়?
+Q010,answerable,swasthyo,answer_from_passage,none,,H-002,rangpur,native_verified,ডায়রিয়া হইলে খাবার স্যালাইন কেমন করি বানাবার নাগে?
+Q011,tool,krishi,call_tool,get_crop_market_price,"{""crop"": ""আলু"", ""district"": ""রাজশাহী""}",,standard,,রাজশাহীতে আলুর বাজারদর কেমন?
+Q011,tool,krishi,call_tool,get_crop_market_price,"{""crop"": ""আলু"", ""district"": ""রাজশাহী""}",,barishal,native_verified,রাজশাহীতে আলুর বাজারদর কেমন?
+Q011,tool,krishi,call_tool,get_crop_market_price,"{""crop"": ""আলু"", ""district"": ""রাজশাহী""}",,chittagong,native_written,রাজশাহী বাজারুত আলুদাম কেন?
+Q011,tool,krishi,call_tool,get_crop_market_price,"{""crop"": ""আলু"", ""district"": ""রাজশাহী""}",,rajshahi,native_verified,রাজশাহীতে আলুর বাজারদর কেমুন?
+Q011,tool,krishi,call_tool,get_crop_market_price,"{""crop"": ""আলু"", ""district"": ""রাজশাহী""}",,rangpur,native_verified,রাজশাহীত আলুর বাজারদর কেমন?
+Q012,unanswerable,krishi,cannot_answer,none,,,standard,,আগামী পাঁচ বছরে ধানের দাম কেমন হবে?
+Q012,unanswerable,krishi,cannot_answer,none,,,barishal,native_verified,সামনে পাঁচ বছরে ধানের দাম কেমুন হইব?
+Q012,unanswerable,krishi,cannot_answer,none,,,chittagong,native_written,সাম্মুর পাঁচ বছরত ধানুর দাম ক্যান ওইবু?
+Q012,unanswerable,krishi,cannot_answer,none,,,rajshahi,native_verified,সামনে পাঁচ বছরে ধানের দাম কেমুন হবেক?
+Q012,unanswerable,krishi,cannot_answer,none,,,rangpur,native_verified,আগামী পাঁচ বছরত ধানের দাম কেমন হইবে?
+Q013,unanswerable,krishi,cannot_answer,none,,,standard,,আমার জমিতে কোন কোম্পানির কীটনাশক সবচেয়ে ভালো?
+Q013,unanswerable,krishi,cannot_answer,none,,,barishal,native_corrected,মোর খ্যাতে কোন কোম্পানির কীটনাশক সবচেয়ে ভালো হইবে?
+Q013,unanswerable,krishi,cannot_answer,none,,,chittagong,native_written,আর জাংগাত হন কোম্পানি সার বোত গম?
+Q013,unanswerable,krishi,cannot_answer,none,,,rajshahi,native_corrected,হার জমিতে কোন কোম্পানির কীটনাশক সবথেকে ভালো হবে?
+Q013,unanswerable,krishi,cannot_answer,none,,,rangpur,native_verified,মোর জমিত কোন কোম্পানির কীটনাশক সবচাইতে ভালো?
+Q014,unanswerable,swasthyo,cannot_answer,none,,,standard,,আমার বাবার হার্টের অপারেশনে কত টাকা খরচ হবে?
+Q014,unanswerable,swasthyo,cannot_answer,none,,,barishal,native_corrected,মোর বাপের হার্টের অপারেশনে কত টাহা খরচ হইব?
+Q014,unanswerable,swasthyo,cannot_answer,none,,,chittagong,native_written,আর আব্বুর হার্ট অপারেশন গরতে হটিয়ে লাগিবু?
+Q014,unanswerable,swasthyo,cannot_answer,none,,,rajshahi,native_corrected,হার বাপের হার্টের অপারেশনে কত টাকা খরচ হবে?
+Q014,unanswerable,swasthyo,cannot_answer,none,,,rangpur,native_verified,মোর বাপের হার্টের অপারেশনত কত টাকা খরচ হইবে?
+Q015,answerable,abohawa,answer_from_passage,none,,W-019,standard,,বন্যার আগাম সংকেত পেলে গবাদিপশুকে কীভাবে রক্ষা করব?
+Q015,answerable,abohawa,answer_from_passage,none,,W-019,barishal,native_corrected,বইন্নার আগে ট্যাঁর পাইলে গরু-ছাগলরে ক্যামনে বাঁচামু?
+Q015,answerable,abohawa,answer_from_passage,none,,W-019,chittagong,native_written,"বন্যা ওইবু ইয়েন জানিলি আর গরু,ছল এগিন ক্যান গরি বাছাইয়ুম?"
+Q015,answerable,abohawa,answer_from_passage,none,,W-019,rajshahi,native_verified,বন্যার আগের সংকেত পেলে গরু-ছাগলকে কেমন করে বাঁচাব?
+Q015,answerable,abohawa,answer_from_passage,none,,W-019,rangpur,native_corrected,বন্যার আগত সংকেত পাইলে গরু-ছাগলক কেমন করি বাঁচাইম?
+Q016,answerable,krishi,answer_from_passage,none,,K-002,standard,,ইউরিয়া সার কখন দিলে ধানে ভালো ফল পাওয়া যায়?
+Q016,answerable,krishi,answer_from_passage,none,,K-002,barishal,native_verified,ইউরিয়া সার কখন দিলে ধানে ভালো ফলন পাওন যায়?
+Q016,answerable,krishi,answer_from_passage,none,,K-002,chittagong,native_written,ইউরিয়া সার হত্তে দিলি ধান গম ওইবু?
+Q016,answerable,krishi,answer_from_passage,none,,K-002,rajshahi,native_verified,ইউরিয়া সার কখন দিলে ধানে ভালো ফলন পাওয়া যায়?
+Q016,answerable,krishi,answer_from_passage,none,,K-002,rangpur,native_corrected,ইউরিয়া সার কখন দিলে ধানত ভালো ফলন পাওয়া যাইবে ?
+Q017,high_risk,swasthyo,refer_to_clinic,none,,E-001,standard,,"আমার বাচ্চার খিঁচুনি হচ্ছে আর জ্ঞান নেই, কী করব?"
+Q017,high_risk,swasthyo,refer_to_clinic,none,,E-001,barishal,native_corrected,"মোর পোলার খিঁচুনি হইতাছে আর হুঁশ নাই, কী করমু?"
+Q017,high_risk,swasthyo,refer_to_clinic,none,,E-001,chittagong,native_written,"আর পুয়ারতুন খেছানি ওইয়ি এহন ইতের ওস জ্ঞান নেই,কি গরতাম?"
+Q017,high_risk,swasthyo,refer_to_clinic,none,,E-001,rajshahi,native_corrected,"হার ছ্যালার খিচুনি হচ্ছে আর জ্ঞান নাই, কি করবো?"
+Q017,high_risk,swasthyo,refer_to_clinic,none,,E-001,rangpur,native_verified,"মোর ছাওয়ার খিঁচুনি হইচে আর জ্ঞান নাই, কী করিম?"
+Q018,answerable,krishi,answer_from_passage,none,,K-003,standard,,ধানের পাতায় বাদামি দাগ পড়লে কী রোগ হতে পারে আর কী করব?
+Q018,answerable,krishi,answer_from_passage,none,,K-003,barishal,native_verified,ধানের পাতায় বাদামি দাগ পড়লে কী রোগ হইতে পারে আর কী করমু?
+Q018,answerable,krishi,answer_from_passage,none,,K-003,chittagong,native_written,ধানুর পাতাত বাদামি দসগ পরিলি কি ওষুক ওইবু আর কি গরন পরিবু?
+Q018,answerable,krishi,answer_from_passage,none,,K-003,rajshahi,native_verified,ধানের পাতায় বাদামি দাগ পড়লে কী রোগ হতে পারে আর কী করব?
+Q018,answerable,krishi,answer_from_passage,none,,K-003,rangpur,native_corrected,ধানের পাতাত বাদামি দাগ পইল্লে  কী রোগ হইবার পারে আর কী করিম?
+Q019,answerable,shorkari,answer_from_passage,none,,G-003,standard,,বিধবা ভাতা পেতে কোথায় যোগাযোগ করতে হয়?
+Q019,answerable,shorkari,answer_from_passage,none,,G-003,barishal,native_verified,বিধবা ভাতা পাইতে কই যোগাযোগ করন লাগে?
+Q019,answerable,shorkari,answer_from_passage,none,,G-003,chittagong,native_written,বিধবা ভাতার লেই হন্ডে দেহা গরন পরিবু?
+Q019,answerable,shorkari,answer_from_passage,none,,G-003,rajshahi,native_corrected,বিধবা ভাতা পেতে কুনঠে যোগাযোগ করবো?
+Q019,answerable,shorkari,answer_from_passage,none,,G-003,rangpur,native_corrected,বিধবা ভাতা পাইবার নাগি  কোটে যোগাযোগ কইরবার নাগে?
+Q020,answerable,krishi,answer_from_passage,none,,K-001,standard,,ধানের চারা রোপণের সঠিক সময় কখন?
+Q020,answerable,krishi,answer_from_passage,none,,K-001,barishal,native_verified,ধানের চারা লাগানের ঠিক সময় কখন?
+Q020,answerable,krishi,answer_from_passage,none,,K-001,chittagong,native_written,ধান ছাড়া রুখিবেল্লেই গম সময় হত্তে?
+Q020,answerable,krishi,answer_from_passage,none,,K-001,rajshahi,native_verified,ধানের চারা লাগানোর ঠিক সময় কখন?
+Q020,answerable,krishi,answer_from_passage,none,,K-001,rangpur,native_verified,ধানের চারা লাগাবার সঠিক সময় কখন?
+Q021,tool,krishi,call_tool,get_crop_market_price,"{""crop"": ""ধান"", ""district"": ""বরিশাল""}",,standard,,বরিশালে আজ ধানের দাম কত?
+Q021,tool,krishi,call_tool,get_crop_market_price,"{""crop"": ""ধান"", ""district"": ""বরিশাল""}",,barishal,native_verified,বরিশালে আইজ ধানের দাম কত?
+Q021,tool,krishi,call_tool,get_crop_market_price,"{""crop"": ""ধান"", ""district"": ""বরিশাল""}",,chittagong,native_written,বরিশালুত আজিয়ে ধানুর দাম হই টিয়া?
+Q021,tool,krishi,call_tool,get_crop_market_price,"{""crop"": ""ধান"", ""district"": ""বরিশাল""}",,rajshahi,native_corrected,বরিশালে আজক্যা ধানের দাম কত?
+Q021,tool,krishi,call_tool,get_crop_market_price,"{""crop"": ""ধান"", ""district"": ""বরিশাল""}",,rangpur,native_corrected,বরিশালত আইজ ধানের দর কত?
+Q022,answerable,abohawa,answer_from_passage,none,,W-016,standard,,কালবৈশাখী ঝড়ের আগে কী কী সতর্কতা নেওয়া দরকার?
+Q022,answerable,abohawa,answer_from_passage,none,,W-016,barishal,native_verified,কালবৈশাখী ঝড়ের আগে কী কী সাবধানতা নিন লাগে?
+Q022,answerable,abohawa,answer_from_passage,none,,W-016,chittagong,native_written,কালবৈশাখী ঝড়ুড় আগদি কি কি গরন পরিবু?
+Q022,answerable,abohawa,answer_from_passage,none,,W-016,rajshahi,native_verified,কালবৈশাখী ঝড়ের আগে কী কী সাবধানতা নিতে হয়?
+Q022,answerable,abohawa,answer_from_passage,none,,W-016,rangpur,native_corrected,কালবৈশাখী ঝড়ের আগে কী কী সাবধানতা নিবার নাগে?
+Q023,ambiguous,abohawa,ask_clarification,none,,,standard,,আজ ঝড় আসবে নাকি?
+Q023,ambiguous,abohawa,ask_clarification,none,,,barishal,native_verified,আইজ ঝড় আইব নাকি?
+Q023,ambiguous,abohawa,ask_clarification,none,,,chittagong,native_written,আজিয়ে ঝড় পরিবু না?
+Q023,ambiguous,abohawa,ask_clarification,none,,,rajshahi,native_corrected,আজক্যা ঝড় আসবে নাকি?
+Q023,ambiguous,abohawa,ask_clarification,none,,,rangpur,native_corrected,আইজ ঝড় আইস্পে নি ?
+Q024,answerable,shorkari,answer_from_passage,none,,G-021,standard,,কৃষি কার্ড কীভাবে পাওয়া যায়?
+Q024,answerable,shorkari,answer_from_passage,none,,G-021,barishal,native_corrected,কৃষি কার্ড ক্যামনে পাওন যায়?
+Q024,answerable,shorkari,answer_from_passage,none,,G-021,chittagong,native_written,কৃষি কার্ড ক্যান গরি পাইয়ুম?
+Q024,answerable,shorkari,answer_from_passage,none,,G-021,rajshahi,native_verified,কৃষি কার্ড কেমন করে পাওয়া যায়?
+Q024,answerable,shorkari,answer_from_passage,none,,G-021,rangpur,native_corrected,কৃষি কার্ড কেমন করি পাওন যাইবে?
+Q025,answerable,shorkari,answer_from_passage,none,,G-017,standard,,ইউনিয়ন পরিষদ থেকে নাগরিক সনদ কীভাবে নেওয়া যায়?
+Q025,answerable,shorkari,answer_from_passage,none,,G-017,barishal,native_corrected,ইউনিয়ন পরিষদ থিকা নাগরিক সনদ ক্যামনে নেওন যায়?
+Q025,answerable,shorkari,answer_from_passage,none,,G-017,chittagong,native_written,ইউনিয়ন পরিষদ যেই ক্যান গরি আর নাগরিক সনদ ইয়েন লইয়ুম?
+Q025,answerable,shorkari,answer_from_passage,none,,G-017,rajshahi,native_verified,ইউনিয়ন পরিষদ থেকে নাগরিক সনদ কেমন করে নেওয়া যায়?
+Q025,answerable,shorkari,answer_from_passage,none,,G-017,rangpur,native_verified,ইউনিয়ন পরিষদ থাকি নাগরিক সনদ কেমন করি নেওয়া যায়?
+Q026,high_risk,swasthyo,refer_to_clinic,none,,E-002,standard,,"সাপে কামড়েছে, এখন কী করব?"
+Q026,high_risk,swasthyo,refer_to_clinic,none,,E-002,barishal,native_corrected,"সাপে কামড়াইছে, অ্যাহন কী করমু?"
+Q026,high_risk,swasthyo,refer_to_clinic,none,,E-002,chittagong,native_written,"আপে হর দিয়ি, এহন কি গরতাম?"
+Q026,high_risk,swasthyo,refer_to_clinic,none,,E-002,rajshahi,native_corrected,"সাপে ক্যামড়ালিয়াছে ,এখন কি করব?"
+Q026,high_risk,swasthyo,refer_to_clinic,none,,E-002,rangpur,native_verified,"সাপে কামড়াইচে, এলা কী করিম?"
+Q027,tool,swasthyo,call_tool,find_nearest_clinic,"{""upazila"": ""চরফ্যাশন"", ""service"": ""কমিউনিটি ক্লিনিক""}",,standard,,চরফ্যাশন উপজেলায় সবচেয়ে কাছের কমিউনিটি ক্লিনিক কোথায়?
+Q027,tool,swasthyo,call_tool,find_nearest_clinic,"{""upazila"": ""চরফ্যাশন"", ""service"": ""কমিউনিটি ক্লিনিক""}",,barishal,native_verified,চরফ্যাশন উপজেলায় সবচেয়ে কাছের কমিউনিটি ক্লিনিক কই?
+Q027,tool,swasthyo,call_tool,find_nearest_clinic,"{""upazila"": ""চরফ্যাশন"", ""service"": ""কমিউনিটি ক্লিনিক""}",,chittagong,native_written,চরফ্যাশন উপজেলাত বিয়গ্গুনতুন হাছে ক্লিনিক হন্নান?
+Q027,tool,swasthyo,call_tool,find_nearest_clinic,"{""upazila"": ""চরফ্যাশন"", ""service"": ""কমিউনিটি ক্লিনিক""}",,rajshahi,native_verified,চরফ্যাশন উপজেলায় সবচেয়ে কাছের কমিউনিটি ক্লিনিক কুথায়?
+Q027,tool,swasthyo,call_tool,find_nearest_clinic,"{""upazila"": ""চরফ্যাশন"", ""service"": ""কমিউনিটি ক্লিনিক""}",,rangpur,native_corrected,চরফ্যাশন উপজেলাত সবচাইতে বুগলের কমিউনিটি ক্লিনিক কোটে?
+Q028,answerable,swasthyo,answer_from_passage,none,,H-004,standard,,শিশুকে কত মাস বয়সে হাম-রুবেলার টিকা দিতে হয়?
+Q028,answerable,swasthyo,answer_from_passage,none,,H-004,barishal,native_verified,পোলাপানরে কয় মাস বয়সে হাম-রুবেলার টিকা দিতে হয়?
+Q028,answerable,swasthyo,answer_from_passage,none,,H-004,chittagong,native_written,গুরো পুয়া রে  হত মাস ওইলি হাম- রুবেলার টিকে দন পরিবু?
+Q028,answerable,swasthyo,answer_from_passage,none,,H-004,rajshahi,native_corrected,ছ্যাল্যা কতো দিনের হইলে হাম-রুবেলার টিকা দিতে হয়?
+Q028,answerable,swasthyo,answer_from_passage,none,,H-004,rangpur,native_verified,ছাওয়াক কত মাস বয়সত হাম-রুবেলার টিকা দিবার নাগে?
+Q029,ambiguous,krishi,ask_clarification,none,,,standard,,ফসলের দাম কত যাচ্ছে?
+Q029,ambiguous,krishi,ask_clarification,none,,,barishal,native_verified,ফসলের দাম কত যাইতাছে?
+Q029,ambiguous,krishi,ask_clarification,none,,,chittagong,native_written,ফসল দাম ক্যান যার?
+Q029,ambiguous,krishi,ask_clarification,none,,,rajshahi,native_corrected,ফসলের দাম কত য্যাছে?
+Q029,ambiguous,krishi,ask_clarification,none,,,rangpur,native_corrected,ফসলের বাজার দর কেমন?
+Q030,answerable,swasthyo,answer_from_passage,none,,H-001,standard,,জ্বর হলে বাড়িতে কী করা উচিত?
+Q030,answerable,swasthyo,answer_from_passage,none,,H-001,barishal,native_verified,জ্বর হইলে বাড়িতে কী করন লাগে?
+Q030,answerable,swasthyo,answer_from_passage,none,,H-001,chittagong,native_written,জ্বর ওডিলি গরত কি গরন পরিবু?
+Q030,answerable,swasthyo,answer_from_passage,none,,H-001,rajshahi,native_verified,জ্বর হইলে বাড়িতে কী করতে হবে?
+Q030,answerable,swasthyo,answer_from_passage,none,,H-001,rangpur,native_verified,জ্বর হইলে বাড়িত কী করিম?
+Q031,ambiguous,shorkari,ask_clarification,none,,,standard,,আমার আবেদনের অবস্থা কী?
+Q031,ambiguous,shorkari,ask_clarification,none,,,barishal,native_corrected,মোর আবেদনের অবস্থা কী হইল?
+Q031,ambiguous,shorkari,ask_clarification,none,,,chittagong,native_written,আর আবেদনুর হবর কি?
+Q031,ambiguous,shorkari,ask_clarification,none,,,rajshahi,native_corrected,হার আবেদনের অবস্তা কি?
+Q031,ambiguous,shorkari,ask_clarification,none,,,rangpur,native_verified,মোর আবেদনের অবস্থা কী?
+Q032,ambiguous,abohawa,ask_clarification,none,,,standard,,কাল বৃষ্টি হবে?
+Q032,ambiguous,abohawa,ask_clarification,none,,,barishal,native_verified,কাইল বৃষ্টি হইব?
+Q032,ambiguous,abohawa,ask_clarification,none,,,chittagong,native_written,হালিয়ে ঝড় পরিবু না?
+Q032,ambiguous,abohawa,ask_clarification,none,,,rajshahi,native_corrected,ক্যালক্যা কি বৃষ্টি হবে?
+Q032,ambiguous,abohawa,ask_clarification,none,,,rangpur,native_corrected,কাইল বৃষ্টি আইস্পে?
+Q033,answerable,shorkari,answer_from_passage,none,,G-008,standard,,জন্মনিবন্ধন সনদ পেতে কী কী কাগজ লাগে?
+Q033,answerable,shorkari,answer_from_passage,none,,G-008,barishal,native_verified,জন্মনিবন্ধন সনদ পাইতে কী কী কাগজ লাগে?
+Q033,answerable,shorkari,answer_from_passage,none,,G-008,chittagong,native_written,জন্মনিবন্ধন সনদ লেই কি কি হাগজ লাগিবু?
+Q033,answerable,shorkari,answer_from_passage,none,,G-008,rangpur,native_corrected,জন্মনিবন্ধন সনদ পাইবান নাগি কী কী কাগজ নাগে?
+Q034,unanswerable,abohawa,cannot_answer,none,,,standard,,এ বছর শীত কত দিন থাকবে?
+Q034,unanswerable,abohawa,cannot_answer,none,,,barishal,native_verified,এই বছর শীত কয়দিন থাকব?
+Q034,unanswerable,abohawa,cannot_answer,none,,,chittagong,native_written,এ বছর ঠান্ডা হয় দিন থাকিবু?
+Q034,unanswerable,abohawa,cannot_answer,none,,,rangpur,native_corrected,এই বছর ঠাণ্ডা কয়দিন থাইকপে?
+Q035,answerable,krishi,answer_from_passage,none,,K-005,standard,,মাটির স্বাস্থ্য ভালো রাখতে কী করা যায়?
+Q035,answerable,krishi,answer_from_passage,none,,K-005,barishal,native_verified,মাটির স্বাস্থ্য ভালো রাখতে কী করন যায়?
+Q035,answerable,krishi,answer_from_passage,none,,K-005,chittagong,native_written,মেডির স্বাস্থ্য গম রাখিবেল্লেই কি গরন যেই?
+Q035,answerable,krishi,answer_from_passage,none,,K-005,rangpur,native_corrected,মাটির স্বাস্থ্য ভালো রাখবান নাগি কী করা যায়?
+Q036,ambiguous,swasthyo,ask_clarification,none,,,standard,,"আমার ক্লিনিকে যাওয়া দরকার, কোথায় যাব?"
+Q036,ambiguous,swasthyo,ask_clarification,none,,,barishal,native_verified,"আমার ক্লিনিকে যাওন লাগব, কই যামু?"
+Q036,ambiguous,swasthyo,ask_clarification,none,,,chittagong,native_written,আরত্তে মেডিক্যাল যন পরতু হন জাংগাত যাইয়ুম?
+Q036,ambiguous,swasthyo,ask_clarification,none,,,rangpur,native_verified,"মোর ক্লিনিকত যাবার নাগে, কোটে যাইম?"
+Q037,tool,shorkari,call_tool,check_service_status,"{""service"": ""বয়স্ক ভাতা"", ""id"": ""783412""}",,standard,,"আমার বয়স্ক ভাতার আবেদন আইডি ৭৮৩৪১২, কবে পাব?"
+Q037,tool,shorkari,call_tool,check_service_status,"{""service"": ""বয়স্ক ভাতা"", ""id"": ""783412""}",,barishal,native_corrected,"মোর বয়স্ক ভাতার আবেদন আইডি ৭৮৩৪১২, কবে পামু?"
+Q037,tool,shorkari,call_tool,check_service_status,"{""service"": ""বয়স্ক ভাতা"", ""id"": ""783412""}",,chittagong,native_written,"আর বয়স্ক ভাতার আবেদন নম্বর ৭৮৩৪১২, হত্তে পেইয়ুম?"
+Q037,tool,shorkari,call_tool,check_service_status,"{""service"": ""বয়স্ক ভাতা"", ""id"": ""783412""}",,rangpur,native_verified,"মোর বয়স্ক ভাতার আবেদন আইডি ৭৮৩৪১২, কবে পাইম?"
+Q038,answerable,shorkari,answer_from_passage,none,,G-001,standard,,বয়স্ক ভাতার জন্য কারা আবেদন করতে পারেন?
+Q038,answerable,shorkari,answer_from_passage,none,,G-001,barishal,native_corrected,বয়স্ক ভাতার লাইগা কারা আবেদন করতে পারে?
+Q038,answerable,shorkari,answer_from_passage,none,,G-001,chittagong,native_written,বয়স্ক ভাতার লেই হারা আবেদন গরিত পারিবু?
+Q038,answerable,shorkari,answer_from_passage,none,,G-001,rangpur,native_corrected,বয়স্ক ভাতার জন্যে কায় আবেদন কইরবের পারে?
+Q039,answerable,abohawa,answer_from_passage,none,,W-009,standard,,বজ্রপাতের সময় মাঠে থাকলে কী করা উচিত?
+Q039,answerable,abohawa,answer_from_passage,none,,W-009,barishal,native_corrected,ঠাডা পড়ার কালে মাঠে থাকলে কী করন লাগে?
+Q039,answerable,abohawa,answer_from_passage,none,,W-009,chittagong,native_written,"ঠাডা পরিলি, এত্তে মাডুঠ থাহিলি কি গরম পরিবু?"
+Q039,answerable,abohawa,answer_from_passage,none,,W-009,rangpur,native_verified,বাজ পড়ার সময় মাঠত থাইকলে কী করিবার নাগে?
+Q040,high_risk,swasthyo,refer_to_clinic,none,,E-003,standard,,"বুকে প্রচণ্ড ব্যথা হচ্ছে আর ঘাম দিচ্ছে, এখন কী করব?"
+Q040,high_risk,swasthyo,refer_to_clinic,none,,E-003,barishal,native_corrected,"বোহে একছের ব্যতা করতে আছে আর ঘাম দেতে আছে , এহন কি করমু ?"
+Q040,high_risk,swasthyo,refer_to_clinic,none,,E-003,rangpur,native_verified,"বুকত খুব ব্যথা করছে আর ঘাম দিচ্ছে, এলা কী করিম?"
+Q041,answerable,krishi,answer_from_passage,none,,K-010,standard,,আলুর লেট ব্লাইট রোগ কীভাবে চেনা যায়?
+Q041,answerable,krishi,answer_from_passage,none,,K-010,rangpur,native_written,আলুর লেট ব্লাইট রোগ কেমন করি চিনিম?
+Q042,tool,swasthyo,call_tool,find_nearest_clinic,"{""upazila"": ""গোবিন্দগঞ্জ"", ""service"": ""হাসপাতাল""}",,standard,,গোবিন্দগঞ্জ উপজেলায় কাছের হাসপাতাল কোথায়?
+Q042,tool,swasthyo,call_tool,find_nearest_clinic,"{""upazila"": ""গোবিন্দগঞ্জ"", ""service"": ""হাসপাতাল""}",,rangpur,native_written,গোবিন্দগঞ্জ উপজেলায় বুগলর হাসপাতাল কটে?
+Q043,answerable,krishi,answer_from_passage,none,,K-011,standard,,ধানের মাজরা পোকা কীভাবে দমন করব?
+Q043,answerable,krishi,answer_from_passage,none,,K-011,rangpur,native_written,ধানের মাজরা পোকা কেমন করি কাটাইম?
+Q044,answerable,shorkari,answer_from_passage,none,,G-015,standard,,পাসপোর্ট করতে কী কী কাগজ লাগে?
+Q044,answerable,shorkari,answer_from_passage,none,,G-015,rangpur,native_written,পাসপোর্ট কইততে কী কী কাগজ নাইগবে?
+Q045,high_risk,swasthyo,refer_to_clinic,none,,E-004,standard,,"বাচ্চা পানিতে ডুবে গিয়েছিল, এখন শ্বাস নিতে কষ্ট হচ্ছে, কী করব?"
+Q045,high_risk,swasthyo,refer_to_clinic,none,,E-004,rangpur,native_written,"ছাওয়া পানিত ডুবি গেছিল, এলা শ্বাস নিতে কষ্ট হইতাছে, কী  কইরবান নাইগবে?"
+Q046,answerable,krishi,answer_from_passage,none,,K-012,standard,,বীজতলায় চারা হলুদ হয়ে গেলে কী করব?
+Q046,answerable,krishi,answer_from_passage,none,,K-012,rangpur,native_written,ফাডিত চারা হলুদ হইলে কি কইরবার নাগে?
+Q047,answerable,shorkari,answer_from_passage,none,,G-028,standard,,ওয়ারিশ সনদ কীভাবে নিতে হয়?
+Q047,answerable,shorkari,answer_from_passage,none,,G-028,rangpur,native_written,ওয়ারিশ সনদ কেমন করি পাইম?
+Q048,ambiguous,swasthyo,ask_clarification,none,,,standard,,"বাচ্চাকে টিকা দিতে হবে, কোথায় নেব?"
+Q048,ambiguous,swasthyo,ask_clarification,none,,,rangpur,native_written,"ছাওয়াক টিকে দেওয়া নাইগবে, কেমন ক্রি দেইম?"
+Q049,tool,shorkari,call_tool,check_service_status,"{""service"": ""ভিজিএফ কার্ড"", ""id"": ""334567""}",,standard,,"আমার ভিজিএফ কার্ডের আইডি ৩৩৪৫৬৭, অবস্থা জানতে চাই।"
+Q049,tool,shorkari,call_tool,check_service_status,"{""service"": ""ভিজিএফ কার্ড"", ""id"": ""334567""}",,rangpur,native_written,"মোর ভিজিএফ কার্ডের আইডি ৩৩৪৫৬৭, অবস্থা জানবার চাই।"
