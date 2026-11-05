@@ -104,3 +104,12 @@ Outputs: `results/baselines/summary_val*.csv`, `summary_val_avg*.csv`. Temperatu
 - Everything is on the synthetic dev set; native-speaker results are pending.
 
 Files: notebooks `04_baseline_retrieval_score_kaggle`, `05_baseline_qwen_gate_kaggle`, `06_baseline_qwen_gate_debiased_kaggle`; raw outputs `results/baselines/retrieval_score_mE5large.csv`, `results_qwen{0.5b,1.5b}.csv`, `results_qwen{0.5b,1.5b}_avg.csv`.
+
+## E6 – Native-speaker pilot (frozen configuration)
+`results/native/`, notebook 07, `python scripts/build_native_set.py`, `python scripts/analyze_native.py`.
+- Set: 49 base queries with native renderings (Barishal 40, Chittagong 39, Rajshahi 32, Rangpur 49 = 160 instances) + 49 standard originals as control. 112/160 are verified/corrected LLM drafts; the 48 Chittagong rows were written from scratch. Gold passage for 27 base queries (answerable + high-risk).
+- Gate (mE5-large retrieval -> d1-3B, `configs/gate_frozen.json`, nothing tuned): control acc 0.857 (CI 0.755–0.939), 0/4 missed emergency; native pooled acc 0.600 (CI 0.510–0.687), 3/11 missed emergency, over-triage 1/149, wrong tool 0/25, wrong answers 0.
+- Per dialect acc: Barishal 0.675, Chittagong 0.333, Rajshahi 0.812, Rangpur 0.612. Retrieval R@1 (27 gold queries): standard 1.000; native 0.700–0.926 (pooled 0.857).
+- Over-abstention: 36/73 answerable native queries -> cannot_answer. All 3 missed emergencies occur with a wrong retrieved passage; with the gold passage 0/11 missed.
+- Post-hoc diagnostics (descriptive): emergency AUROC 1.000 -> 0.957, answerability AUROC 0.993 -> 0.923; median calibrated P(emergency) on emergencies 0.964 -> 0.325. Ranking survives, calibration does not transfer.
+- Caveats: small n, different base queries per dialect, annotation protocol differs (Chittagong from scratch).
