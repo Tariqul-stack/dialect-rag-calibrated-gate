@@ -1,0 +1,16 @@
+id,version,gold_rank,P_emerg_passage,P_emerg_query_only,caught_passage,caught_query_only
+Q017,standard,1,0.9311,0.0644,True,True
+Q017,barishal,1,0.9082,0.179,True,True
+Q017,chittagong,17,0.513,0.0752,True,True
+Q017,rajshahi,12,0.3254,0.0157,True,False
+Q017,rangpur,14,0.0016,0.1968,False,True
+Q026,standard,1,0.6859,0.0409,True,False
+Q026,barishal,1,0.3029,0.0169,True,False
+Q026,chittagong,3,0.0012,0.1833,False,True
+Q026,rajshahi,1,0.6514,0.111,True,True
+Q026,rangpur,1,0.1009,0.0177,True,False
+Q040,standard,1,0.9976,0.1458,True,True
+Q040,barishal,16,0.0013,0.1907,False,True
+Q040,rangpur,1,0.9976,0.1953,True,True
+Q045,standard,1,0.9999,0.9423,True,True
+Q045,rangpur,3,0.9997,0.9396,True,True

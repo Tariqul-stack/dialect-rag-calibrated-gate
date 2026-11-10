@@ -1,0 +1,5 @@
+{
+ "T_query_only": 0.8,
+ "tau_query_only": 0.05,
+ "fit_on": "dev fit split"
+}
