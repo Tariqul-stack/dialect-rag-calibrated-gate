@@ -49,6 +49,7 @@ Main findings:
 - **The safety property does not transfer to native dialect text.** The gate mostly over-abstains (36/73 answerable queries refused) and misses 3/11 emergencies.
 - All three missed emergencies occur where **retrieval returned the wrong passage**; with the gold passage none is missed (0/11). The emergency question depends on the retrieved passage.
 - Rankings survive (emergency AUROC 1.000 → 0.957, answerability AUROC 0.993 → 0.923) but calibrated values drop (median P(emergency) on emergencies 0.964 → 0.325): a **calibration shift** from synthetic to native text.
+- **Revision analyses (E7, E8):** temperature scaling fit on synthetic data *worsens* calibration of P(supported) on native dialect text (ECE 0.091 → 0.209). An independent query-only emergency check (fit on dev only) is weaker alone, but OR-ed with the passage-conditioned check it catches all 11 native emergencies, at the cost of over-triage rising from 1 to 29 of 149.
 
 ## Caveats
 

@@ -113,3 +113,26 @@ Files: notebooks `04_baseline_retrieval_score_kaggle`, `05_baseline_qwen_gate_ka
 - Over-abstention: 36/73 answerable native queries -> cannot_answer. All 3 missed emergencies occur with a wrong retrieved passage; with the gold passage 0/11 missed.
 - Post-hoc diagnostics (descriptive): emergency AUROC 1.000 -> 0.957, answerability AUROC 0.993 -> 0.923; median calibrated P(emergency) on emergencies 0.964 -> 0.325. Ranking survives, calibration does not transfer.
 - Caveats: small n, different base queries per dialect, annotation protocol differs (Chittagong from scratch).
+
+cat >> docs/EXPERIMENTS.md <<'EOF'
+
+## E7 – Calibration of the frozen gate on native text (revision round 2, reviewer comments 2/3)
+`python scripts/analyze_calibration_native.py` → `results/calibration/`, `results/figures/fig3_native_calibration.png`.
+Temperatures unchanged (frozen, fit on dev `fit`). Native labels derived: emergency = high_risk; supported = answerable with gold top-1 passage, not supported = unanswerable or answerable with a wrong top-1 passage.
+- ECE of P(supported), raw → scaled: synthetic val 0.107 → 0.019; native control 0.091 → 0.058; native dialect 0.091 → **0.209** (scaling makes it worse on native dialect).
+- AUROC of P(supported): 0.986 / 0.993 / 0.910. Emergency AUROC: 1.000 / 1.000 / 0.957.
+- Class-conditional (scaled): true-supported median P(supported) 0.972 (synthetic) vs 0.815 (native dialect); share above τs 0.84 vs 0.54. True-emergency median P(emergency) 0.982 vs 0.325; share above τe 1.00 vs 0.73. Non-emergencies stay near 0 everywhere.
+- Emergency ECE stays small (≤0.03) because the many easy negatives dominate; the class-conditional view is the informative one.
+- Tool ECE 0.04–0.09 in all three sets: no calibration break for the tool question.
+
+## E8 – Query-only emergency check (revision round 2, reviewer comment 4)
+Notebook 08 (d1-3B emergency question on the query alone, no passage/tools) → `results/query_only/results_query_only_emergency_v1.csv`; `python scripts/analyze_query_only.py`.
+- Query-only temperature 0.8 and threshold 0.05 fit on dev `fit` only (3 emergencies still missed on fit at the lowest grid value). Nothing tuned on native data; post-hoc revision experiment.
+- Rules inside the otherwise frozen gate (missed / over-triage / acc):
+  - dev val: passage 0/24, 2/216, 0.865 · query-only 0/24, 10/216, 0.830 · OR 0/24, 10/216, 0.830
+  - native control: passage 0/4, 0/45, 0.857 · query-only 1/4, 2/45, 0.816 · OR 0/4, 2/45, 0.837
+  - native dialect: passage 3/11, 1/149, 0.600 · query-only 3/11, 28/149, 0.531 · **OR 0/11, 29/149, 0.550**
+- Query-only alone is weaker (median P on native emergencies 0.179 vs 0.325) and misses a different set; the two are complementary. The three passage-induced misses (Q017 Rangpur, Q026 Chittagong, Q040 Barishal) all get query-only P 0.18–0.20 ≥ 0.05.
+- Trade-off: OR rule catches 11/11 native emergencies but over-triage rises from 1 to 29 of 149. Small n (11 emergencies from 4 base queries).
+EOF
+tail -5 docs/EXPERIMENTS.md
