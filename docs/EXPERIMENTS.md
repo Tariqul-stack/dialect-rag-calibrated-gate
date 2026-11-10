@@ -136,3 +136,9 @@ Notebook 08 (d1-3B emergency question on the query alone, no passage/tools) → 
 - Trade-off: OR rule catches 11/11 native emergencies but over-triage rises from 1 to 29 of 149. Small n (11 emergencies from 4 base queries).
 EOF
 tail -5 docs/EXPERIMENTS.md
+## E9 – Temperature sweep (revision round 2, supervisor suggestion; supports reviewer comments 2/3)
+`python scripts/analyze_temperature_sweep.py` → `results/calibration/temperature_sweep_*.csv`, `results/figures/fig4_temperature_sweep.png` (paper Figure 3).
+One temperature varied at a time (T = 0.1…3.0; T = 1 raw; T = 0 undefined), all thresholds frozen. Descriptive, post hoc; nothing re-tuned.
+- ECE of P(supported): lowest at T = 0.4 on synthetic fit (0.018) and val (0.019) = fitted value; native control flat ~0.058 for T ≤ 0.4; native dialect lowest at **T = 1.5 (0.072)**, i.e. on the other side of the raw scale.
+- Synthetic val accuracy 0.858–0.872 for T_s or T_e in 0.2–0.7: no lucky temperature.
+- Native dialect, varying T_e: T ≤ 0.7 → 3–5/11 missed; T = 1.0 → 0/11 missed but 30/149 over-triage (synthetic val 16/216). Same trade-off as the OR rule (E8).
