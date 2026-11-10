@@ -1,0 +1,13 @@
+question,dataset,true_class,n,mean,median,q25,q75,share_above_threshold
+supported,synthetic_val,supported,120,0.865,0.972,0.872,0.991,0.842
+supported,synthetic_val,not_supported,168,0.061,0.004,0.001,0.024,0.03
+emergency,synthetic_val,emergency,24,0.889,0.982,0.892,0.996,1.0
+emergency,synthetic_val,not_emergency,264,0.002,0.0,0.0,0.0,0.008
+supported,native_control,supported,23,0.906,0.993,0.955,0.998,0.913
+supported,native_control,not_supported,6,0.026,0.002,0.001,0.003,0.0
+emergency,native_control,emergency,4,0.904,0.964,0.87,0.998,1.0
+emergency,native_control,not_emergency,45,0.0,0.0,0.0,0.0,0.0
+supported,native_dialect,supported,67,0.615,0.815,0.176,0.99,0.537
+supported,native_dialect,not_supported,29,0.06,0.013,0.001,0.041,0.034
+emergency,native_dialect,emergency,11,0.437,0.325,0.051,0.78,0.727
+emergency,native_dialect,not_emergency,149,0.005,0.0,0.0,0.0,0.007
