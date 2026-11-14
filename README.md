@@ -1,6 +1,11 @@
 # Knowing When Not to Act: Calibrated Decision Gating for Dialectal Bengali Retrieval Assistants
 
-> **Status:** paper submitted to AISIS 2027 (under review). Results below cover the synthetic development set **and** a pilot native-speaker evaluation run with a frozen configuration. See [`docs/EXPERIMENTS.md`](docs/EXPERIMENTS.md) for the full experiment log (E1–E6) and [`docs/DATA_CARD.md`](docs/DATA_CARD.md) for data provenance.
+> **Accepted at AISIS 2027** — 2nd International Conference on Artificial Intelligence, Intelligent Systems, and Information Security, Harbin, China, 29–31 January 2027 (oral presentation).
+> The paper passed two rounds of peer review and will be published in the **ACM International Conference Proceeding Series (ICPS)**, to be submitted for indexing in EI Compendex and Scopus.
+>
+> **Tariqul Islam**, *Knowing When Not to Act: Calibrated Decision Gating for Dialectal Bengali Retrieval Assistants*, AISIS 2027 (ACM ICPS). DOI: *to be added after publication*.
+
+Results below cover the synthetic development set, a pilot native-speaker evaluation run with a frozen configuration, and the analyses added during peer review. See [`docs/EXPERIMENTS.md`](docs/EXPERIMENTS.md) for the full experiment log (E1–E9) and [`docs/DATA_CARD.md`](docs/DATA_CARD.md) for data provenance.
 
 ## Idea
 
@@ -19,14 +24,14 @@ Gate order (first case that applies): (1) emergency, recall-first (τe = 0.1) �
 
 ### 1. Synthetic development set (`val` split, n = 288; 24 emergencies, 216 non-emergencies)
 
-| System | Acc. | Missed emerg. | Over-triage | Wrong tool calls | Wrong answers |
-|---|---|---|---|---|---|
-| B0 always answer | 0.333 | 24/24 | 0/216 | 0/0 | 192 |
-| B1 retrieval-score threshold (mE5-large cosine) | 0.573 | 24/24 | 0/216 | 0/0 | 27 |
-| B3 d1-3B, single five-way question | 0.733 | 18/24 | 0/216 | 0/14 | 23 |
-| B2 Qwen2.5-0.5B, decomposed gate | 0.083 | 0/24 | 216/216 | 0/0 | 0 |
-| B2 Qwen2.5-1.5B, decomposed gate | 0.191 | 0/24 | 179/216 | 0/8 | 4 |
-| **Ours: d1-3B, decomposed gate** | **0.865** (CI 0.813–0.915) | **0/24** | **2/216** | **0/42** | **5** |
+| System                                          | Acc.                              | Missed emerg.  | Over-triage     | Wrong tool calls | Wrong answers |
+| ----------------------------------------------- | --------------------------------- | -------------- | --------------- | ---------------- | ------------- |
+| B0 always answer                                | 0.333                             | 24/24          | 0/216           | 0/0              | 192           |
+| B1 retrieval-score threshold (mE5-large cosine) | 0.573                             | 24/24          | 0/216           | 0/0              | 27            |
+| B3 d1-3B, single five-way question              | 0.733                             | 18/24          | 0/216           | 0/14             | 23            |
+| B2 Qwen2.5-0.5B, decomposed gate                | 0.083                             | 0/24           | 216/216         | 0/0              | 0             |
+| B2 Qwen2.5-1.5B, decomposed gate                | 0.191                             | 0/24           | 179/216         | 0/8              | 4             |
+| **Ours: d1-3B, decomposed gate**          | **0.865** (CI 0.813–0.915) | **0/24** | **2/216** | **0/42**   | **5**   |
 
 - `supported` score: AUROC 0.986 (cosine 0.944), ECE 0.107 → 0.019 after temperature scaling.
 - Qwen scorers say "emergency" for every query (240/240); averaging original and reversed option order does not fix it (0.083 / 0.233).
@@ -36,25 +41,54 @@ Gate order (first case that applies): (1) emergency, recall-first (τe = 0.1) �
 
 49 base queries rendered by native speakers into four dialects (160 instances) plus the 49 standard-Bengali originals as control. Retrieval and gate run end to end.
 
-| Rendering | n | R@1 | Action accuracy (95% CI) | Missed emerg. | Wrong answers |
-|---|---|---|---|---|---|
-| Standard (control) | 49 | 1.000 | 0.857 (0.755–0.939) | 0/4 | 0 |
-| Barishal | 40 | 0.905 | 0.675 (0.525–0.800) | 1/3 | 0 |
-| Chittagong | 39 | 0.700 | 0.333 (0.205–0.487) | 1/2 | 0 |
-| Rajshahi | 32 | 0.875 | 0.812 (0.688–0.938) | 0/2 | 0 |
-| Rangpur | 49 | 0.926 | 0.612 (0.469–0.735) | 1/4 | 0 |
-| **Native pooled** | **160** | **0.857** | **0.600 (0.510–0.687)** | **3/11** | **0** |
+| Rendering               | n             | R@1             | Action accuracy (95% CI)       | Missed emerg.  | Wrong answers |
+| ----------------------- | ------------- | --------------- | ------------------------------ | -------------- | ------------- |
+| Standard (control)      | 49            | 1.000           | 0.857 (0.755–0.939)           | 0/4            | 0             |
+| Barishal                | 40            | 0.905           | 0.675 (0.525–0.800)           | 1/3            | 0             |
+| Chittagong              | 39            | 0.700           | 0.333 (0.205–0.487)           | 1/2            | 0             |
+| Rajshahi                | 32            | 0.875           | 0.812 (0.688–0.938)           | 0/2            | 0             |
+| Rangpur                 | 49            | 0.926           | 0.612 (0.469–0.735)           | 1/4            | 0             |
+| **Native pooled** | **160** | **0.857** | **0.600 (0.510–0.687)** | **3/11** | **0**   |
 
 Main findings:
+
 - **The safety property does not transfer to native dialect text.** The gate mostly over-abstains (36/73 answerable queries refused) and misses 3/11 emergencies.
 - All three missed emergencies occur where **retrieval returned the wrong passage**; with the gold passage none is missed (0/11). The emergency question depends on the retrieved passage.
 - Rankings survive (emergency AUROC 1.000 → 0.957, answerability AUROC 0.993 → 0.923) but calibrated values drop (median P(emergency) on emergencies 0.964 → 0.325): a **calibration shift** from synthetic to native text.
-- **Revision analyses (E7, E8):** temperature scaling fit on synthetic data *worsens* calibration of P(supported) on native dialect text (ECE 0.091 → 0.209). An independent query-only emergency check (fit on dev only) is weaker alone, but OR-ed with the passage-conditioned check it catches all 11 native emergencies, at the cost of over-triage rising from 1 to 29 of 149.
+
+### 3. Analyses added during peer review (post hoc, descriptive)
+
+**Calibration on native text (E7).** Frozen temperatures, three data sets:
+
+|                                         | Synthetic val | Native control | Native dialect               |
+| --------------------------------------- | ------------- | -------------- | ---------------------------- |
+| ECE of P(supported), scaled             | 0.019         | 0.058          | **0.209** (raw: 0.091) |
+| Median P(emergency) on true emergencies | 0.982         | 0.964          | **0.325**              |
+| Supported passages above τs            | 84%           | 91%            | 54%                          |
+
+Negatives stay near zero everywhere; true positives shift down on native dialect text. Tool probabilities show no comparable break (ECE 0.04–0.09).
+
+**Query-only emergency check (E8).** d1-3B asked the emergency question on the query alone; temperature 0.8 and threshold 0.05 fit on dev `fit` only. Missed emergencies / over-triage / accuracy:
+
+| Emergency rule                 | Synthetic val           | Native control       | Native dialect                    |
+| ------------------------------ | ----------------------- | -------------------- | --------------------------------- |
+| Passage-conditioned (original) | 0/24 · 2/216 · 0.865  | 0/4 · 0/45 · 0.857 | 3/11 · 1/149 · 0.600            |
+| Query-only                     | 0/24 · 10/216 · 0.830 | 1/4 · 2/45 · 0.816 | 3/11 · 28/149 · 0.531           |
+| **OR of both**           | 0/24 · 10/216 · 0.830 | 0/4 · 2/45 · 0.837 | **0/11** · 29/149 · 0.550 |
+
+The two checks are complementary: the OR rule catches all 11 native emergencies, at the cost of more over-triage.
+
+**Temperature sweep (E9).** One temperature varied at a time (T = 0.1…3.0; T = 1 is raw), thresholds frozen:
+
+- ECE of P(supported) is lowest at the fitted **T = 0.4** on synthetic data (0.019), but at **T = 1.5** on native dialect text (0.072): the best temperature lies on the other side of the raw scale.
+- Synthetic accuracy is stable (0.86–0.87) for T between 0.2 and 0.7.
+- On native dialect text, raising the emergency temperature to 1.0 removes all missed emergencies but raises over-triage to 30/149 — the same trade-off as the OR rule.
 
 ## Caveats
 
 - Dev data (queries, labels, KB passages, dialect text) were written with an LLM assistant; dev dialect text is rule-based/synthetic and not validated by native speakers.
 - The emergency question was reworded once after errors on `val` (first wording: 0.83 acc, 2 missed emergencies, 9/216 over-triage), so `val` numbers are optimistic.
+- The analyses in section 3 were added after the native results were known and are descriptive; nothing was re-tuned on native data.
 - Native pilot is small (49 base queries, 11 emergencies from 4 base queries, 32–49 instances per dialect). Dialects cover different base queries, and the protocol differs: Chittagong was written from scratch, the others were mostly native corrections of LLM drafts. Per-dialect numbers are not a ranking of dialects.
 - Ambiguous-query accuracy is weak (0.61 on `val`): the `specific` question is not used in the decision rule.
 - Grounding uses a gazetteer and may reject dialectal spellings of place names.
@@ -70,10 +104,13 @@ src/aisis/       paths.py  data_build/ (reproducible builders)
                  gate/ (grounding, calibration, decision, metrics, selection)
                  retrieval/ (placeholder)
 scripts/         analyze_gate.py  analyze_retrieval.py  analyze_baselines.py
-                 build_native_set.py  analyze_native.py  git_commit_plan.sh
+                 build_native_set.py  analyze_native.py  analyze_calibration_native.py
+                 analyze_query_only.py  analyze_temperature_sweep.py  git_commit_plan.sh
 notebooks/       01 d1 gate · 02 Laya pilot · 03 retrieval baselines · 04 retrieval score (B1)
-                 05 Qwen gate · 06 Qwen gate, option-order debiased · 07 native end-to-end   (Kaggle)
-results/         gate_pilot/  gate_dev/  retrieval/  baselines/  native/   (raw per-instance outputs)
+                 05 Qwen gate · 06 Qwen gate, option-order debiased · 07 native end-to-end
+                 08 query-only emergency check   (Kaggle)
+results/         gate_pilot/  gate_dev/  retrieval/  baselines/  native/  query_only/   (raw per-instance outputs)
+                 calibration/  figures/   (revision analyses and paper figures)
 configs/         gate_frozen.json   (frozen temperatures + thresholds)
 docs/            EXPERIMENTS.md  DATA_CARD.md
 tests/           pytest unit tests (gate logic, baseline metrics)
@@ -93,9 +130,26 @@ python scripts/analyze_gate.py            # fits temperatures/thresholds on `fit
 python scripts/analyze_retrieval.py
 python scripts/analyze_baselines.py       # B0–B3 and Qwen scorers on `val`
 python scripts/analyze_native.py          # native pilot with the frozen config
+python scripts/analyze_calibration_native.py   # E7: ECE, reliability, class-conditional
+python scripts/analyze_query_only.py      # E8: passage vs query-only vs OR emergency rule
+python scripts/analyze_temperature_sweep.py    # E9: calibration and gate outcomes vs T
 pytest -q
 ```
 
 Model inference (d1-3B, Qwen2.5, embedding models) runs on a Kaggle T4 via the notebooks; raw outputs are committed under `results/`.
 
-**Author:** Tariqul Islam
+## Citation
+
+```bibtex
+@inproceedings{tariqul2027knowing,
+  author    = {Tariqul Islam},
+  title     = {Knowing When Not to Act: Calibrated Decision Gating for Dialectal Bengali Retrieval Assistants},
+  booktitle = {Proceedings of the 2nd International Conference on Artificial Intelligence, Intelligent Systems, and Information Security (AISIS 2027)},
+  series    = {ACM International Conference Proceeding Series},
+  year      = {2027},
+  note      = {Accepted; to appear}
+}
+```
+
+
+**Author:** Tariqul Islam · Northeast Petroleum University, Daqing, China · ORCID [0009-0002-2138-0260](https://orcid.org/0009-0002-2138-0260)
